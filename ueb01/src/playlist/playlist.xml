@@ -3,7 +3,7 @@
 <playlist>
     <bands> <!-- Move bands above records -->
         <!-- Rename id, move content to name-->
-        <band id="slayer" genre="Metal" name="Slayer"></band>
+        <band id="slayer" genre="Metal" name="Slayer"/>
         <band id="lgaga" genre="Pop" name="Lady Gaga"/>
         <band id="kspatz" genre="Volksmusik" name="Kastelruther Spatzen"/> <!-- Add " -->
         <band id="wphil" genre="Klassik" name="Wiener Philharmoniker"/>

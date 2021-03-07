@@ -4,6 +4,109 @@
 :reproducible:
 :listing-caption: Listing
 :source-highlighter: rouge
-:source-dir: ./src/
+:source-dir: ./src
 :stem:
+:toc:
+
+<<<
+
+== 01. Validieren von XML-Dokumenten
+
+.dtd zum Dokument
+[source,dtd]
+----
+include::{source-dir}/playlist/playlist.dtd[]
+----
+
+.Änderungsvorschläge
+[source,xml]
+----
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE playlist SYSTEM "playlist.dtd">
+<playlist>
+	<records>
+		<lastEdit>20210225</lastEdit> <1>
+		<record band="slayer" year="1986" name="Reign in blood">
+			<title length="3:15">Angel of Death</title>
+			<title length="2:45">Raining Blood</title>
+			<title length="1:33">Altars of Sacrifice</title>
+		</record>
+		<record band="kspatz" year="2000" name="Feuer im ewigen Eis" length="3:22"> <2>
+			Tränen passen nicht zu Dir <3>
+		</record>
+		<record band="lgaga" year="2009" year="2009" name="The Fame"> <4>
+			<title length="4:55">Pokerface</title>
+			<title length="3:13">Paparazzi</title>
+		</record>
+		<record band="lgaga" year="2011" name="Born this way">
+			<title length="4:20">Born <emp>this</emp> way</title> <5>
+		<record band="edop" year="1998" name="Alien Girl"> <6>
+			<title length="6:41">Alien Girl</title>
+		</record>
+		</record>
+		<record band="slayer" year="1989" name="South of heaven">
+			<title length="3:55">War ensemble</title>
+		</record>
+		<record band="dubl" year="1967" name="A drop of the hard stuff">
+			<title length="2:50">Wild rover</title>
+			<title length="4:06">7 drunken nights</title>
+		</record>
+		<record band="wphil" year="2011" name="Neujahrskonzert 2011">
+			<title length="5:23">Radetzkymarsch</title>
+		</record>
+	</records>
+	<bands> <7>
+		<band id="slay" genre="Metal"> <8>
+		  <name>Slayer</name>
+		</band>
+		<band id="lgaga" genre="Pop" name="Lady Gaga"/>
+		<band id="kspatz genre="Volksmusik" name="Kastelruther Spatzen"/> <9>
+		<band id="wphil" genre="Klassik" name="Wiener Philharmoniker"/>
+		<band id="edop" genre="DNB" name="Ed Rush&Optical"/> <10>
+		<band id="dubl" genre="Folk" name="The Dubliners"/>
+	</bands>
+</playlist>
+<playlist> <11>
+	<bands>EMPTY</bands>
+	<records>EMPTY</records>
+</playlist>
+----
+
+<1> `lastEdited` ist ein Attribut von `playlist` und kein Element
+<2> `length` ist kein Attribut von `record`
+<3> In ein `title` Element klammern, und das `length` Attribut von oben einfügen
+<4> Doppeltes Attribute
+<5> `emp` darf hier nicht vorkommen
+<6> `record` muss eine Ebene weiter oben sein
+<7> `bands` muss vor `records` sein
+<8> `id` zu slayer umbenennen
+<9> Ein zusätzliches Hochkomma
+<10> Amp escapen
+<11> Löschen, da es nur einen Rootknoten geben darf
+
+.Änderungen
+[source,xml]
+----
+include::{source-dir}/playlist/playlist.xml[]
+----
+
+<<<
+== 02. Modellierung von XML-Dokumenten
+
+.entlassungsbrief.xml
+[source,xml]
+----
+include::{source-dir}/Entlassungsbrief/entlassungsbrief.xml[]
+----
+
+<<<
+== 03. Erstellen einer Dokumenttyp-Definition
+
+.entlassungsbrief.dtd
+[source,xml]
+----
+include::{source-dir}/Entlassungsbrief/entlassungsbrief.dtd[]
+----
+
+
 

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entlassungsbrief SYSTEM "entlassungsbrief.dtd">
+<entlassungsbrief erstellungsdatum="2021-02-27T08:46:00+01:00" version="3">
+    <ersteller>Kepler Universitätsklinikum Med Campus Hagenberg - Chirugische Abteilung</ersteller>
+    <empfaenger>Ordination Dr. Nixisfix</empfaenger>
+    <patient sozialversicherungsnummer="8567240856">
+        <titel>
+            <vorangestellt>Dipl. Ing.</vorangestellt>
+            <vorangestellt>Hofrat</vorangestellt>
+            <nachgestellt>BA</nachgestellt>
+            <nachgestellt>MA</nachgestellt>
+        </titel>
+        <name>
+            <vorname>Konrad</vorname>
+            <mittelname>Anton</mittelname>
+            <nachname>Tneitap</nachname>
+        </name>
+        <geschlecht>männlich</geschlecht>
+        <geburtsdatum>1956-08-24T00:00:00+01:00</geburtsdatum>
+    </patient>
+    <aufenthalt von="2021-02-12T00:00:00+01:00" bis="2021-02-24T00:00:00+01:00" typ="Stationär">
+        Kepler Universitätsklinikum Med Campus Hagenberg - Chirugische Abteilung
+    </aufenthalt>
+    <nachricht>
+        Sehr geehrte Herr/Frau Kollege(in),
+
+        Wird danken für die Überweisung Ihres Patienten Herr Tneitap. Bei den Inhalten dieses
+        Entlassungsbriefes handelt es sich um synthetische Mustertexte und keinesfalls um
+        personenbezogene Echtdaten oder realistische Befunde. Das Beispiel veranschaulicht die technischen
+        Möglichkeiten unter Verwendung eines Maximums der erlaubten Optionen.
+    </nachricht>
+    <diagnosen>
+        <diagnose code="M25.46" von="2021-01-11T00:00:00+01:00" bis="2021-02-24T00:00:00+01:00" status="Abgeschlossen">
+            Meniskus: Empyema gen. sin. post corpus alienum ligneum operat
+        </diagnose>
+        <diagnose code="M54.9" von="2018-01-31T00:00:00+01:00" status="Offen">
+            bekannt rezidivierende Rückenschmerzen
+        </diagnose>
+    </diagnosen>
+    <medikationen>
+        <medikation einnahme="täglich" dosierung="1-0-1-0" diagnose="M25.46">
+            <medikament>Diazepam Actavis 10mg Tabletten</medikament>
+            <zusatzinformationen start="2021-02-24T00:00:00+01:00" ende="2021-03-14T00:00:00+01:00">
+                zum Einnehmen
+            </zusatzinformationen>
+        </medikation>
+        <medikation einnahme="täglich" dosierung="1-0-0-0" diagnose="M25.46">
+            <medikament>Zithromax 500mg Filmtabl.</medikament>
+            <hinweis>
+                vor dem Frühstück
+            </hinweis>
+            <zusatzinformationen>
+                zum Einnehmen
+            </zusatzinformationen>
+        </medikation>
+        <medikation einnahme="täglich">
+            <medikament>Nasivin 0,05 % - Nasentropfen</medikament>
+            <hinweis>
+                3 x 1 Tropfen
+            </hinweis>
+            <zusatzinformationen>
+                nasal
+            </zusatzinformationen>
+        </medikation>
+    </medikationen>
+</entlassungsbrief>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!ELEMENT entlassungsbrief (ersteller,empfaenger,patient,aufenthalt,nachricht,diagnosen,medikationen?)>
+        <!ATTLIST entlassungsbrief
+                erstellungsdatum CDATA #REQUIRED
+                version CDATA #REQUIRED>
+        <!ELEMENT ersteller (#PCDATA)>
+        <!ELEMENT empfaenger (#PCDATA)>
+        <!ELEMENT patient (titel?,name,geschlecht,geburtsdatum)>
+        <!ATTLIST patient
+                sozialversicherungsnummer CDATA #REQUIRED>
+        <!ELEMENT titel (vorangestellt+,nachgestellt+)>
+        <!ELEMENT vorangestellt (#PCDATA)>
+        <!ELEMENT nachgestellt (#PCDATA)>
+        <!ELEMENT name (vorname,mittelname*,nachname)>
+        <!ELEMENT vorname (#PCDATA)>
+        <!ELEMENT mittelname (#PCDATA)>
+        <!ELEMENT nachname (#PCDATA)>
+        <!ELEMENT geschlecht (#PCDATA)>
+        <!ELEMENT geburtsdatum (#PCDATA)>
+        <!ELEMENT aufenthalt (#PCDATA)>
+        <!ATTLIST aufenthalt
+                von CDATA #REQUIRED
+                bis CDATA #REQUIRED
+                typ CDATA #REQUIRED>
+        <!ELEMENT nachricht (#PCDATA)>
+        <!ELEMENT diagnosen (diagnose+)>
+        <!ELEMENT diagnose (#PCDATA)>
+        <!ATTLIST diagnose
+                bis CDATA #IMPLIED
+                code ID #REQUIRED
+                status (Offen|Abgeschlossen) #REQUIRED
+                von CDATA #REQUIRED>
+        <!ELEMENT medikationen (medikation+)>
+        <!ELEMENT medikation (medikament,hinweis?,zusatzinformationen)>
+        <!ATTLIST medikation
+                diagnose IDREF #IMPLIED
+                dosierung CDATA #IMPLIED
+                einnahme CDATA #REQUIRED>
+        <!ELEMENT medikament (#PCDATA)>
+        <!ELEMENT zusatzinformationen (#PCDATA)>
+        <!ATTLIST zusatzinformationen
+                ende CDATA #IMPLIED
+                start CDATA #IMPLIED>
+        <!ELEMENT hinweis (#PCDATA)>
