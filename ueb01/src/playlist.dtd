@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!ELEMENT playlist (bands, records)>
+        <!ELEMENT bands (band*)>
+        <!ELEMENT band EMPTY>
+        <!ATTLIST band
+                id ID #REQUIRED
+                genre CDATA #REQUIRED
+                name CDATA #IMPLIED>
+
+        <!ELEMENT records (record*)>
+        <!ATTLIST records
+                lastEdited CDATA #IMPLIED>
+
+        <!ELEMENT record (title+)>
+        <!ATTLIST record
+                band IDREF #REQUIRED
+                year CDATA #IMPLIED
+                name CDATA #IMPLIED>
+
+        <!ELEMENT title (#PCDATA)>
+        <!ATTLIST title
+                length CDATA #REQUIRED>

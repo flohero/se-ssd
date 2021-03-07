@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!ELEMENT PersonList (Person*)>
+
+        <!ELEMENT Person (FirstName, MiddleName*, LastName)>
+        <!ATTLIST Person
+                gender CDATA #IMPLIED
+                id ID #REQUIRED
+                marriedWith IDREF #IMPLIED>
+
+        <!ELEMENT FirstName (#PCDATA)>
+        <!ELEMENT MiddleName (#PCDATA)>
+        <!ELEMENT LastName (#PCDATA)>

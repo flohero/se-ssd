@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE PersonList SYSTEM "personlist.dtd">
+<PersonList>
+    <Person id="i123" gender="male">
+        <FirstName>Norbert</FirstName>
+        <LastName>Niklas</LastName>
+    </Person>
+    <Person id="i234" marriedWith="i123">
+        <FirstName>Anna</FirstName>
+        <MiddleName>M.</MiddleName>
+        <MiddleName>K.</MiddleName>
+        <LastName>Niklas</LastName>
+    </Person>
+    <Person id="i345">
+        <FirstName>Stefanie</FirstName>
+        <LastName>Niklas</LastName>
+    </Person>
+    <Person id="i456">
+        <FirstName>Jane</FirstName>
+        <LastName>Doe</LastName>
+    </Person>
+</PersonList>

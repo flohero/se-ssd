@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE playlist SYSTEM "/home/florian/Projects/fh/semester4/ssd/ueb/ueb01/src/playlist.dtd">
+<playlist>
+    <bands> <!-- Move bands above records -->
+        <!-- Rename id, move content to name-->
+        <band id="slayer" genre="Metal" name="Slayer"></band>
+        <band id="lgaga" genre="Pop" name="Lady Gaga"/>
+        <band id="kspatz" genre="Volksmusik" name="Kastelruther Spatzen"/> <!-- Add " -->
+        <band id="wphil" genre="Klassik" name="Wiener Philharmoniker"/>
+        <band id="edop" genre="DNB" name="Ed Rush&amp;Optical"/> <!-- use amp -->
+        <band id="dubl" genre="Folk" name="The Dubliners"/>
+    </bands>
+    <records lastEdited="20210225"> <!-- Move to attribute -->
+        <record band="slayer" year="1986" name="Reign in blood">
+            <title length="3:15">Angel of Death</title>
+            <title length="2:45">Raining Blood</title>
+            <title length="1:33">Altars of Sacrifice</title>
+        </record>
+        <record band="kspatz" year="2000" name="Feuer im ewigen Eis"> <!-- Move length to title -->
+            <title length="3:22">Tränen passen nicht zu Dir</title>
+        </record>
+        <record band="lgaga" year="2009" name="The Fame"> <!-- Remove second year -->
+            <title length="4:55">Pokerface
+            </title>
+            <title length="3:13">Paparazzi
+            </title>
+        </record>
+        <record band="lgaga" year="2011" name="Born this way">
+            <title length="4:20">Born this way <!-- Remove emp tag -->
+            </title>
+        </record>
+        <record band="edop" year="1998" name="Alien Girl"> <!-- Move to upper layer -->
+            <title length="6:41">Alien Girl</title>
+        </record>
+        <record band="slayer" year="1989" name="South of heaven">
+            <title length="3:55">War ensemble</title>
+        </record>
+        <record band="dubl" year="1967" name="A drop of the hard stuff">
+            <title length="2:50">Wild rover</title>
+            <title length="4:06">7 drunken nights</title>
+        </record>
+        <record band="wphil" year="2011" name="Neujahrskonzert 2011">
+            <title length="5:23">Radetzkymarsch</title>
+        </record>
+    </records>
+</playlist>

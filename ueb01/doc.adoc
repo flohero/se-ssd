@@ -1,0 +1,9 @@
+= Übung 01
+:author: Florian Weingartshofer
+:email: <S1910307103@students.fh-hagenberg.at>
+:reproducible:
+:listing-caption: Listing
+:source-highlighter: rouge
+:source-dir: ./src/
+:stem:
+
