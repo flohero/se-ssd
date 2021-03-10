@@ -96,7 +96,7 @@ include::{source-dir}/playlist/playlist.xml[]
 .entlassungsbrief.xml
 [source,xml]
 ----
-include::{source-dir}/Entlassungsbrief/entlassungsbrief.xml[]
+include::{source-dir}/entlassungsbrief/entlassungsbrief.xml[]
 ----
 
 <<<
@@ -105,7 +105,7 @@ include::{source-dir}/Entlassungsbrief/entlassungsbrief.xml[]
 .entlassungsbrief.dtd
 [source,xml]
 ----
-include::{source-dir}/Entlassungsbrief/entlassungsbrief.dtd[]
+include::{source-dir}/entlassungsbrief/entlassungsbrief.dtd[]
 ----
 
 
