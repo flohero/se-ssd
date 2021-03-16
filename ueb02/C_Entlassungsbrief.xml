@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entlassungsbrief erzeugt="2021-02-11T12:42:00+01:00" version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://www.fh-ooe.at/ssd4/entlassungsbrief C_Entlassungsbrief.xsd"
+                  xmlns="http://www.fh-ooe.at/ssd4/entlassungsbrief"
+                  xmlns:med="http://www.fh-ooe.at/ssd4/medikation">
+    <Ersteller>Kepler Universitätsklinikum Med Campus Hagenberg - Chirurgische Abteilung</Ersteller>
+    <Empfänger>Ordination Dr. Adam Frankenstein</Empfänger>
+    <Patient>
+        <Vorname>Petronella</Vorname>
+        <Vorname>Petunia</Vorname>
+        <Nachname>Apfelmus</Nachname>
+        <Titel position="vor">Prof.</Titel>
+        <Titel position="vor">Dr.</Titel>
+        <Titel position="nach">BSc</Titel>
+        <Titel position="nach">MSc</Titel>
+        <Geschlecht>weiblich</Geschlecht>
+        <Geburtsdatum>1984-12-24</Geburtsdatum>
+        <SVN>1234241284</SVN>
+    </Patient>
+    <Aufenthalt art="ambulant" von="2021-02-11" bis="2021-02-11">
+        Kepler Universitätsklinikum Med Campus Hagenberg - Chirurgische Ambulanz
+    </Aufenthalt>
+    <Befundtext>
+        <Anrede>Sehr geehrte Herr/Frau Kollege(in),</Anrede>
+        <Text>Eine Begutachtung zur Abklärung synthetischer Mustersymptome durchgeführt. OP indiziert.</Text>
+    </Befundtext>
+    <Diagnosen>
+        <Diagnose code="M25.46" von="2021-01-11" bis="2021-02-11" status="abgeschlossen">
+            Meniskus: Empyema gen. sin. post corpus alienum ligneum operat.
+        </Diagnose>
+        <Diagnose code="G35.10" von="2006-09-11" status="offen">
+            Multiple Sklerose mit schubf. Verlauf
+        </Diagnose>
+    </Diagnosen>
+    <med:Medikation>
+        <med:Arzneimittel einnahme="bei Bedarf" hinweis="bei Schmerzen" von="2021-02-11" bis="2021-02-18"
+                      anwendung="zum Einnehmen">
+            Mexalen 500 mg
+        </med:Arzneimittel>
+        <med:Arzneimittel einnahme="täglich" dosierung="1-0-1-0" von="2019-07-03" diagnose="G35.10" anwendung="oral">
+            Tecfidera 240 mg Tabletten
+        </med:Arzneimittel>
+        <med:Arzneimittel einnahme="täglich" dosierung="1-0-0-0" diagnose="M25.46" hinweis="vor dem Frühstück"
+                      anwendung="zum Einnehmen">
+            Azithromycin 500 mg Filmtabl.
+        </med:Arzneimittel>
+    </med:Medikation>
+</Entlassungsbrief>
