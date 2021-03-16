@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:stud="http://www.fh-hagenberg.at/studentList0" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.fh-hagenberg.at/studentList0" elementFormDefault="qualified">
+	<xs:element name="Grades" type="stud:GradesType"/>
+	<xs:complexType name="GradesType">
+		<xs:sequence>
+			<xs:element name="Course" type="stud:CourseType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CourseType">
+		<xs:simpleContent>
+			<xs:extension base="stud:GradeType">
+				<xs:attribute name="name" type="xs:string"/>
+				<xs:attribute name="student" type="xs:string"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:simpleType name="GradeType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="1 SGT"/>
+			<xs:enumeration value="2 GUT"/>
+			<xs:enumeration value="3 BEF"/>
+			<xs:enumeration value="4 GEN"/>
+			<xs:enumeration value="5 NGD"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

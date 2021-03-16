@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Grades  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.fh-hagenberg.at/grades grades_ns.xsd"
+	xmlns="http://www.fh-hagenberg.at/grades">
+	<Course name="SSD4UE" student="matnr1000">1 SGT</Course>
+	<Course name="SSD4UE" student="matnr1001">2 GUT</Course>
+	<Course name="SSD4UE" student="matnr1002">3 BEF</Course>
+	<Course name="DES3UE" student="matnr1001">1 SGT</Course>
+	<Course name="DES3UE" student="matnr1002">2 GUT</Course>
+</Grades>

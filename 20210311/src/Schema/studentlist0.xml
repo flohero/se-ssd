@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+
+<StudentList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns="http://www.fh-hagenberg.at/studentList0"
+             xsi:schemaLocation="http://www.fh-hagenberg.at/studentList0 studentlist0.xsd">
+    <Student id="matnr1000" gender="male" born="1972-06-22">
+        <FirstName>Karl</FirstName>
+        <MiddleName>Franz</MiddleName>
+        <LastName>Mustermann</LastName>
+    </Student>
+    <Student id="matnr1001" gender="male" born="1923-07-10">
+        <FirstName>Andreas</FirstName>
+        <LastName>Tester</LastName>
+    </Student>
+    <Student id="matnr1002" gender="female">
+        <FirstName>Martha</FirstName>
+        <LastName>Musterfrau</LastName>
+    </Student>
+    <Student id="matnr1003" gender="male">
+        <FirstName>John</FirstName>
+        <LastName>Doe</LastName>
+    </Student>
+    <Student id="matnr1004" gender="female">
+        <FirstName>Jane</FirstName>
+        <LastName>Doe</LastName>
+    </Student>
+    <Student xsi:type="StudentExtendedType" id="matnr1005" gender="female" nation="AUT">
+        <FirstName>Jane</FirstName>
+        <LastName>Doe</LastName>
+        <BirthPlace>Wels</BirthPlace>
+    </Student>
+
+</StudentList>

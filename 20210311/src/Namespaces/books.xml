@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="www.w3.org/1999/xhtml">
+	<head>
+		<title>HTML, Rechnungen und Bücher</title>
+	</head>
+	<body>
+		<h1>Ein Beispiel zu Namespaces</h1>
+		<Rechnungen xmlns="http://www.mycompany.com/rechnung" xmlns:b="www.mybooks.com/buch">
+			<Rechnung>
+				<Rechnungsposten>
+					<Posten nr="1">
+						<b:Buch>
+							<b:Titel>The XML Companion</b:Titel>
+							<b:Autor>Lee Purcell</b:Autor>
+							<b:Preis waehrung="Euro">34.64</b:Preis>
+							<b:ISBN>0-071-34115-3</b:ISBN>
+						</b:Buch>
+					</Posten>
+					<Posten nr="2">
+						<b:Buch>
+							<b:Titel>XML Design and Implementation</b:Titel>
+							<b:Autor>Will Kelly, Natanya Pitts-Moultis</b:Autor>
+							<b:Preis waehrung="Euro">42.39</b:Preis>
+							<b:ISBN>0-201-34285-5</b:ISBN>
+						</b:Buch>
+					</Posten>
+				</Rechnungsposten>
+			</Rechnung>
+			<Rechnung>
+				<Rechnungsposten>
+					<Posten nr="1">
+						<b:Buch>
+							<b:Titel>The XML Handbook</b:Titel>
+							<b:Autor>Sean McGrath</b:Autor>
+							<b:Preis waehrung="Dollar">84.92</b:Preis>
+							<b:ISBN>1-575-21334-6</b:ISBN>
+						</b:Buch>
+					</Posten>
+					<Posten nr="2">
+						<b:Buch>
+							<b:Titel>Professional XML</b:Titel>
+							<b:Autor>Alain Michard</b:Autor>
+							<b:Preis waehrung="Euro">24.19</b:Preis>
+							<b:ISBN>0-471-24577-1</b:ISBN>
+						</b:Buch>
+					</Posten>
+					<Posten nr="3">
+						<b:Buch>
+							<b:Titel>The Latex Web Companion : Integrating TeX, HTML and XML</b:Titel>
+							<b:Autor>Bryan Pfaffenberger</b:Autor>
+							<b:Preis waehrung="Euro">57.46</b:Preis>
+							<b:ISBN>0-792-39943-9</b:ISBN>
+						</b:Buch>
+					</Posten>
+				</Rechnungsposten>
+			</Rechnung>
+		</Rechnungen>
+	</body>
+</html>

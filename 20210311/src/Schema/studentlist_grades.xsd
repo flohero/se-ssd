@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.fh-hagenberg.at/studentList0"
+           xmlns:stud="http://www.fh-hagenberg.at/studentList0">
+
+    <xs:include schemaLocation="grades.xsd"/>
+
+    <xs:element name="StudentList" type="stud:StudentListType">
+        <xs:key name="personKey">
+            <xs:selector xpath="stud:Student"/>
+            <xs:field xpath="@id"/>
+        </xs:key>
+
+        <xs:keyref name="gradesKey" refer="stud:personKey">
+            <xs:selector xpath="stud:Grades/stud:Course"/>
+            <xs:field xpath="@student"/>
+        </xs:keyref>
+    </xs:element>
+
+    <xs:complexType name="StudentListType">
+        <xs:sequence>
+            <xs:element name="Student" type="stud:StudentType" maxOccurs="unbounded"/>
+            <xs:element ref="stud:Grades"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="StudentType">
+        <xs:sequence>
+            <xs:element name="FirstName" type="stud:NameType"/>
+            <xs:element name="MiddleName" type="stud:NameType" minOccurs="0"/>
+            <xs:element name="LastName" type="stud:NameType"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="stud:studentAtrributes"/>
+    </xs:complexType>
+
+    <xs:complexType name="StudentExtendedType">
+        <xs:complexContent>
+            <xs:extension base="stud:StudentType">
+                <xs:sequence>
+                    <xs:element name="BirthPlace" type="xs:string" minOccurs="0"/>
+                </xs:sequence>
+                <xs:attribute name="nation" type="xs:string" use="optional"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:attributeGroup name="studentAtrributes">
+        <xs:attribute name="id" type="stud:IdType" use="required"/>
+        <xs:attribute name="gender" type="stud:GenderType" use="required"/>
+        <xs:attribute name="born" type="xs:date"/>
+    </xs:attributeGroup>
+
+    <xs:simpleType name="GenderType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="female"/>
+            <xs:enumeration value="male"/>
+            <xs:enumeration value="undefined"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="IdType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="matnr[0-9]{4}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="NameType">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="30"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

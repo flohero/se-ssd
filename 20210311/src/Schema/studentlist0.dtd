@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT StudentList (Student*)>
+<!ELEMENT Student (FirstName, MiddleName?, LastName)>
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT MiddleName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>
+
+<!ATTLIST Student
+	id ID #REQUIRED
+	gender (male | female | unknown) #REQUIRED
+	born CDATA #IMPLIED
+	href CDATA #IMPLIED
+>
