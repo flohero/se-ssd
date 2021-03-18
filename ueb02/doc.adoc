@@ -1,0 +1,64 @@
+= Übung 02
+:author: Florian Weingartshofer
+:email: <S1910307103@students.fh-hagenberg.at>
+:reproducible:
+:listing-caption: Listing
+:source-highlighter: rouge
+:stem:
+:toc:
+
+<<<
+
+== Entwurf eines XML-Schemas
+
+.A_Entlassungsbrief.xml
+[source,xml]
+----
+include::./src/A_Entlassungsbrief.xml[]
+----
+
+.A_Entlassungsbrief.xsd
+[source,xml]
+----
+include::./src/A_Entlassungsbrief.xsd[]
+----
+
+== Komposition von Schema-Dokumenten
+
+.B_Entlassungsbrief.xml
+[source,xml]
+----
+include::./src/B_Entlassungsbrief.xml[]
+----
+
+.B_Entlassungsbrief.xsd
+[source,xml]
+----
+include::./src/B_Entlassungsbrief.xsd[]
+----
+
+.B_Medikationsliste.xsd
+[source,xml]
+----
+include::./src/B_Medikationsliste.xsd[]
+----
+
+== Verwendung unterschiedlicher Namensräume
+
+.C_Entlassungsbrief.xml
+[source,xml]
+----
+include::./src/C_Entlassungsbrief.xml[]
+----
+
+.C_Entlassungsbrief.xsd
+[source,xml]
+----
+include::./src/C_Entlassungsbrief.xsd[]
+----
+
+.C_Medikationsliste.xsd
+[source,xml]
+----
+include::./src/C_Medikationsliste.xsd[]
+----
