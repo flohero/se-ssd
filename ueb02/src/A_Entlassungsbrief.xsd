@@ -39,7 +39,7 @@
         <xs:sequence>
             <xs:element name="Vorname" type="ue2:NameType" maxOccurs="2"/>
             <xs:element name="Nachname" type="ue2:NameType"/>
-            <xs:element name="Titel" type="ue2:TitleType" maxOccurs="unbounded"/>
+            <xs:element name="Titel" type="ue2:TitleType" maxOccurs="unbounded" minOccurs="0"/>
         </xs:sequence>
     </xs:complexType>
     <xs:simpleType name="NameType">
