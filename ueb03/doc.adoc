@@ -21,4 +21,36 @@ count(//record[number(@year) >= 2000]) <6>
 ----
 
 == XPath 2.0
+[source,xpath]
+----
+distinct-values(//*/@id | //*/@terminErsteller | //*/@ort ) <1>
 
+for $x in //Termin[@serienTermin = 'ja']/Beginn <2>
+return concat($x/@datum, 'T', $x/@uhrzeit)
+
+for $x in //Termin <3>
+return concat($x/Beschreibung, ': ', 
+if(xs:date($x/Ende/@datum) < current-date()) then 'ist bereits vorbei'
+else 'steht noch an')
+
+//Termin[contains(./Beschreibung, 'Report')]/ following-sibling::*/Beschreibung <4>
+
+every $x in //Termin <5>
+satisfies fn:dateTime($x/Beginn/@datum, $x/Beginn/@uhrzeit) < fn:dateTime($x/Ende/@datum, $x/Ende/@uhrzeit)
+
+some $x in //Termin <6>
+satisfies contains($x/Beschreibung, 'XML') or contains($x/Beschreibung, 'Datenbanke')
+
+<!-- Hier ist die Angabe fehlerhaft, da ein Meeting dass nur 90 Minuten dauert, wie zB Vorstellung XML Spy nicht länger als 90 Minuten dauert -->
+for $x in //Termin <7>
+return if((fn:dateTime($x/Ende/@datum, $x/Ende/@uhrzeit) - fn:dateTime($x/Beginn/@datum, $x/Beginn/@uhrzeit)) > xs:dayTimeDuration("PT90M")) then $x/Beschreibung
+else()
+
+some $x in //Termin <8>
+satisfies ((fn:dateTime($x/Ende/@datum, $x/Ende/@uhrzeit) - fn:dateTime($x/Beginn/@datum, $x/Beginn/@uhrzeit)) > xs:dayTimeDuration("P5D"))
+
+every $x in //Termin[@serienTermin = 'ja'] <9>
+satisfies $x[exists(Benachrichtigung)]
+
+//Termin[fn:dateTime(Beginn/@datum, Beginn/@uhrzeit) > current-dateTime()][position() <= 3]/Beschreibung <10>
+----
