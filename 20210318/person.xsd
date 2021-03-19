@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--	Der Zweck einer XML Schema-Spezifikation ist es, ein Vokabular zu beschreiben. 
+		Die Knoten auf der obersten Ebene gehören zu seinem Ziel-Namensraum. 
+		Wenn ein Zielnamensraum deklariert wird, ist es daher verboten, globale 
+		Elemente zu definieren, die unqualifiziert sind.
+-->
+<!-- 	targetNamespace: 
+		Namensraum, der durch das XML-Schema-Dokument aufgebaut wird.
+		Globale Deklarationen (direkt unter Wurzelelement schema - wie
+		beispielsweise element, attribut, type) sind bei Verwendung (Referenzierung) im 
+		XML-Schema-Instanzdokument explizit zu qualifizieren, um die Verbindung 
+		zum Zielnamensraum herzustellen. D.h. die Form mit project als Präfix wird für
+		Querverweise zwischen den Deklarationen verwendet. Verwendet man keinen
+		Präfix, so ist ein Standardnamensraum anzugeben.
+-->
+<!-- 	elementFormDefault 
+		Mit dem XML-Schema-Attribute elementFormDefault wird spezifiziert, ob 
+		lokale Elemente dieses Schemas im Instanzdokument (*.xml) mit ihrem 
+		Namensraumpräfix qualifiziert werden müssen (qualified) oder nicht sollen (unqualified).
+		Wenn qualified gesetzt ist (in der Praxis üblich), müssen geschachtelte 
+		Elemente (lokale) zum Zielnamensraum gehören (entweder über Default-
+		Namespace oder expliziten Präfix). 
+-->
+<xs:schema xmlns:project="http://www.fh-hagenberg.at/projectteam" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.fh-hagenberg.at/projectteam" elementFormDefault="qualified">
+	<!-- 	annotation: 
+		ist ein Container, in den zusätzliche Informationen eingebettet werden
+		können, sei es für die Nutzung durch Menschen (mit xs:documentation), sei es für
+		Programme (xs:appinfo). xs:annotation kann jedem Element als erstes Kindelement
+		hinzugefügt werden. Dieser Container kann auch überall als Element auf oberster
+		Ebene (unmittelbar unterhalb von xs:schema) angegeben werden. -->
+	<xs:annotation>
+		<xs:documentation xml:lang="de"> ProjectTeam Schema - Venetian Blinds Design, FH Hagenberg 2021
+    </xs:documentation>
+	</xs:annotation>
+	<xs:element name="ProjectTeam" type="project:ProjectTeamType"/>
+	<!-- Komplexer Datentyp: ProjectTeamType -->
+	<xs:complexType name="ProjectTeamType">
+		<xs:sequence>
+			<xs:element name="Person" type="project:PersonType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- Komplexer Datentyp: PersonType -->
+	<xs:complexType name="PersonType">
+		<xs:sequence>
+			<xs:element name="FirstName" type="project:ExtendedNameType"/>
+			<xs:element name="MiddleName" type="project:NameType" nillable="true" minOccurs="0"/>
+			<xs:element name="LastName" type="project:NameType"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="project:personAttributes"/>
+	</xs:complexType>
+	<!-- 2. Komplexer Datentyp: PersonExtendedType - Ableitung durch Erweiterung -->
+	<xs:complexType name="PersonExtendedType">
+		<xs:complexContent>
+			<xs:extension base="project:PersonType">
+				<xs:sequence>
+					<xs:element name="BirthPlace" type="xs:string"/>
+				</xs:sequence>
+				<xs:attribute name="nation" type="project:NationType" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<!-- Attributgruppe: Zusammenfassung Attribute für Element Person -->
+	<xs:attributeGroup name="personAttributes">
+		<xs:attribute name="id" type="project:IdType" use="required"/>
+		<xs:attribute name="gender" type="project:GenderType" use="required"/>
+		<xs:attribute name="born" type="xs:date" use="optional"/>
+	</xs:attributeGroup>
+	<!-- Einfacher Datentyp: Ableitung durch Einschränkung mit Fassette pattern -->
+	<xs:simpleType name="IdType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="ssn[0-9]{4}"/>
+			<!-- Die pattern-Fassette von XML Schema verwendet eine Sprache für 
+					reguläre Ausdrücke, die Unicode unterstützt. Sie ist in 
+					http://www.w3.org/TR/2001/REC-xmlschema-2-20010502/ vollständig 
+					beschrieben. -->
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- Einfacher Datentyp: Ableitung durch Einschränkung mit Fassette enumeration -->
+	<xs:simpleType name="GenderType">
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:enumeration value="male"/>
+			<xs:enumeration value="female"/>
+			<!-- Namenstoken: Zeichenfolge ohne Blanks (z.B. "CMS", "234234") -->
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- Einfacher Datentyp: Ableitung durch Einschränkung mit Fassette maxLength-->
+	<xs:simpleType name="NameType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="20"/>
+			<xs:whiteSpace value="collapse"/>
+			<!-- 	Diese Fassette legt fest, wie Whitespace - d.h. Leerzeichen, Tabulator, Linefeed
+					während der Transformation vom lexikalischen in den Werteraum behandelt werden
+					soll. 
+					collapse: am Anfang und am Ende stehender Whitespace wird entfernt, alle anderen
+								Folgen von zusammenhängendem Whitespace werden durch ein einzelnes
+								Leerzeichen ersetzt.
+					preserve: Whitespace wird unverändert beibehalten
+					replace: alle Vorkommen von Whitespace werden durch ein Leerzeichen ersetzt.
+			-->
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="ExtendedNameType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="20"/>
+			<xs:whiteSpace value="collapse"/>
+			<!-- 	Diese Fassette legt fest, wie Whitespace - d.h. Leerzeichen, Tabulator, Linefeed
+					während der Transformation vom lexikalischen in den Werteraum behandelt werden
+					soll. 
+					collapse: am Anfang und am Ende stehender Whitespace wird entfernt, alle anderen
+								Folgen von zusammenhängendem Whitespace werden durch ein einzelnes
+								Leerzeichen ersetzt.
+					preserve: Whitespace wird unverändert beibehalten
+					replace: alle Vorkommen von Whitespace werden durch ein Leerzeichen ersetzt.
+			-->
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- Einfacher Datentyp: Ableitung durch Einschränkung mit Fassette enumeration -->
+	<xs:simpleType name="NationType">
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:enumeration value="AUT"/>
+			<xs:enumeration value="GER"/>
+			<xs:enumeration value="SUI"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

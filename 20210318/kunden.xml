@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kundenListe>
+  <!-- Comment -->
+  <?apache dbconnect="db.local"?>
+  <?sort descending?>
+  <?ssd4 info="Kundenliste" comment="Kundenliste zur Veranschaulichung von XPath"?>
+  <kunde id="knr0001" test="eins">
+    <titel>Dipl.-Ing.</titel>
+    <name>Müller</name>
+    <vorname>Udo</vorname>
+    <adresse>
+      <strasse>Lindenstraße</strasse>
+      <hnr>12</hnr>
+      <plz>56001</plz>
+      <ort>Köln</ort>
+    </adresse>
+    <wunschliste>
+      <buecher>
+        <buch id="bnr4711">
+          <titel>Die Zauberflöte</titel>
+        </buch>
+        <buch id="bnr4712">
+          <titel>Die Schachnovelle</titel>
+        </buch>
+      </buecher>
+      <cds>
+        <cd id="cnr6601">
+          <titel>Die Zauberflöte</titel>
+        </cd>
+        <cd id="cnr6602">
+          <titel>The Wall</titel>
+        </cd>
+      </cds>
+    </wunschliste>
+  </kunde>
+  <kunde id="knr0002">
+    <titel>Dipl.-Ing.</titel>
+    <name>Meier</name>
+    <vorname>Morad</vorname>
+    <adresse>
+      <strasse>Mönchebergstraße</strasse>
+      <hnr>11</hnr>
+      <plz>34125</plz>
+      <ort>Kassel</ort>
+    </adresse>
+    <wunschliste>
+      <buecher>
+        <buch id="bnr4711">
+          <titel>Die Zauberflöte</titel>
+        </buch>
+      </buecher>
+      <cds>
+        <cd id="cnr6601">
+          <titel>Die Zauberflöte</titel>
+        </cd>
+      </cds>
+    </wunschliste>
+  </kunde>
+  <kunde id="knr0003">
+    <titel/>
+    <name>Hoffman</name>
+    <vorname>Marco</vorname>
+    <adresse>
+      <strasse>Goethestraße</strasse>
+      <hnr>7</hnr>
+      <plz>34119</plz>
+      <ort>Kassel</ort>
+    </adresse>
+    <wunschliste>
+      <buecher>
+        <buch id="bnr4711">
+          <titel>Die Zauberflöte</titel>
+        </buch>
+        <buch id="4711">
+          <titel>Endlich Nichtraucher!</titel>
+        </buch>
+      </buecher>
+      <cds>
+        <cd id="cnr6601">
+          <titel>Die Zauberflöte</titel>
+        </cd>
+      </cds>
+    </wunschliste>
+  </kunde>
+  <kunde id="knr0004">
+    <titel>Dr. med.</titel>
+    <name>Bubart</name>
+    <vorname>Stefan</vorname>
+    <adresse>
+      <strasse>Wilhelmshöher Allee</strasse>
+      <hnr>237</hnr>
+      <plz>34121</plz>
+      <ort>Kassel</ort>
+    </adresse>
+    <wunschliste>
+      <buecher>
+        <buch id="bnr4713">
+          <titel>Die Buddenbrooks</titel>
+        </buch>
+        <buch id="bnr4713">
+          <titel>Die Buddenbrooks</titel>
+        </buch>
+        <buch id="bnr4713">
+          <titel>Die Buddenbrooks</titel>
+        </buch>
+      </buecher>
+    </wunschliste>
+  </kunde>
+</kundenListe>

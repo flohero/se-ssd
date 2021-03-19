@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<det:BookDetails xmlns:det="http://www.mybooks.com/details">
+  <det:Book isbn="0-7897-2504-5"> 
+    <det:Title>XML by Example</det:Title>
+    <det:Author>Benoit Marchal</det:Author>
+    <det:Editor>France Press</det:Editor>
+  </det:Book>
+  <det:Book isbn="0-672-32054-1">
+    <det:Title>Applied XML Solutions</det:Title>
+    <det:Author>Johnny Wilkinson</det:Author>
+    <det:Editor>RFU editions</det:Editor>
+  </det:Book>
+  <det:Book isbn="2-10-005763-4">
+    <det:Title>Huit Solutions Concrètes avec XML et Java</det:Title>
+    <det:Author>Sylvain Marconnet</det:Author>
+    <det:Editor>Parisienne</det:Editor>
+  </det:Book>
+  <det:Book isbn="4-16-078963-2">
+    <det:Title>XML in a nutshell</det:Title>
+    <det:Author>Elliott Rusty Harold</det:Author>
+    <det:Editor>O'Reilly</det:Editor>
+  </det:Book>
+</det:BookDetails>

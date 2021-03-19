@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<po:PurchaseOrder xmlns:po="http://www.marchal.com/2006/po">
+   <po:Buyer>Pineapplesoft</po:Buyer>
+   <po:Seller>Bookstore</po:Seller>
+    <po:OrderLines> 
+      <po:Line>
+         <po:Code type="ISBN">0-7897-2504-5</po:Code>
+         <po:Quantity>1</po:Quantity>
+         <po:Description>XML by Example</po:Description>
+         <po:Price>29.99</po:Price>
+      </po:Line>
+      <po:Line>
+         <po:Code type="ISBN">0-672-32054-1</po:Code>
+         <po:Quantity>2</po:Quantity>
+         <po:Description>Applied XML Solutions</po:Description>
+         <po:Price>44.99</po:Price>
+      </po:Line>
+      <po:Line>
+         <po:Code type="ISBN">2-10-005763-4</po:Code>
+         <po:Quantity>2</po:Quantity>
+         <po:Description>Huit Solutions Concrètes avec XML et Java</po:Description>
+         <po:Price>40.00</po:Price>
+      </po:Line>
+      <po:Line>
+         <po:Code type="ISBN">4-16-078963-2</po:Code>
+         <po:Quantity>1</po:Quantity>
+         <po:Description>XML in a nutshell</po:Description>
+         <po:Price>3.10</po:Price>
+      </po:Line>
+   </po:OrderLines>
+</po:PurchaseOrder>

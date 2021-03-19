@@ -1,0 +1,24 @@
+= Übung 03
+:author: Florian Weingartshofer
+:email: <S1910307103@students.fh-hagenberg.at>
+:reproducible:
+:listing-caption: Listing
+:source-highlighter: rouge
+:stem:
+:toc:
+
+== XPath Basics
+[source,xpath]
+----
+//@* <1>
+//recordlist/*/* <2>
+//band[position() = last() - 1] <3>
+count(//recordlist//*) <4>
+//title[string-length(text()) > 14] <5>
+count(//record[number(@year) >= 2000]) <6>
+//*[@band = "lgaga" and @year > 2009]/title <7>
+//title[text() = "Radetzkymarsch"]/../@band <8>
+----
+
+== XPath 2.0
+

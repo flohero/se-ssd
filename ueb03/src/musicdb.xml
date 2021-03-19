@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<musicdb>
+  <bandlist>
+    <band id="slay" genre="Metal" name="Slayer"/>
+    <band id="lgaga" genre="Pop" name="Lady Gaga"/>
+    <band id="kspatz" genre="Volksmusik" name="Kastelruther Spatzen"/>
+    <band id="wphil" genre="Klassik" name="Wiener Philharmoniker"/>
+    <band id="edop" genre="DNB" name="Ed Rush&amp;Optical"/>
+    <band id="dubl" genre="Folk" name="The Dubliners"/>
+  </bandlist>
+  <recordlist lastEdit="20110319">
+    <record band="slay" year="1986" name="Reign in blood">
+      <title length="3:15">Angel of Death</title>
+      <title length="2:45">Raining Blood</title>
+      <title length="1:33">Altars of Sacrifice</title>
+    </record>
+    <record band="kspatz" year="2000" name="Feuer im ewigen Eis">
+      <title length="3:22">Tränen passen nicht zu Dir</title>
+    </record>
+    <record band="lgaga" year="2009" name="The Fame">
+      <title length="4:55">Pokerface</title>
+      <title length="3:13">Paparazzi</title>
+    </record>
+    <record band="lgaga" year="2011" name="Born this way">
+      <title length="4:20">Born this way</title>
+    </record>
+    <record band="edop" year="1998" name="Alien Girl">
+      <title length="6:41">Alien Girl</title>
+    </record>
+    <record band="slay" year="1989" name="South of heaven">
+      <title length="3:55">War ensemble</title>
+    </record>
+    <record band="dubl" year="1967" name="A drop of the hard stuff">
+      <title length="2:50">Wild rover</title>
+      <title length="4:06">7 drunken nights</title>
+    </record>
+    <record band="wphil" year="2011" name="Neujahrskonzert 2011">
+      <title length="5:23">Radetzkymarsch</title>
+    </record>
+  </recordlist>
+</musicdb>

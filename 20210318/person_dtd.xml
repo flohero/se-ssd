@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProjectTeam [
+	<!ELEMENT ProjectTeam (Person*)>
+	<!ELEMENT Person (FirstName, MiddleName?, LastName, BirthPlace?)> 
+	<!ELEMENT FirstName (#PCDATA)>
+	<!ELEMENT LastName (#PCDATA)>
+	<!ELEMENT MiddleName (#PCDATA)>
+	<!ELEMENT BirthPlace (#PCDATA)>
+	<!ATTLIST Person
+		id ID #REQUIRED
+		gender (male |female) #REQUIRED
+		born CDATA #IMPLIED
+	>
+]>
+<ProjectTeam>
+  <Person id="ssn1000" gender="male" born="1972-07-22">
+    <FirstName>Markus</FirstName>
+    <MiddleName>Franz</MiddleName>
+    <LastName>Mustermann</LastName>
+  </Person>
+  <Person id="ssn1001" gender="male" born="1978-10-12">
+    <FirstName>Meinhard</FirstName>
+    <LastName>Friedrich</LastName>
+    <BirthPlace>Wels</BirthPlace>
+  </Person>
+  <Person id="ssn1002" gender="female">
+    <FirstName>Monika</FirstName>
+    <LastName>Musterfrau</LastName>
+  </Person>
+  <Person id="ssn1003" gender="male">
+    <FirstName>Helmut</FirstName>
+    <LastName>Grabner</LastName>
+  </Person>
+  <Person id="ssn1004" gender="female">
+    <FirstName>Franziska</FirstName>
+    <LastName>Hafner</LastName>
+  </Person>
+  <Person id="ssn1006" gender="female">
+    <FirstName>Brigitte</FirstName>
+    <LastName>Meierlehner</LastName>
+  </Person>
+  <Person id="ssn1007" gender="male">
+    <FirstName>Doris</FirstName>
+    <MiddleName/>
+    <LastName>Gräf</LastName>
+  </Person>
+  <?apache do something?>
+</ProjectTeam>

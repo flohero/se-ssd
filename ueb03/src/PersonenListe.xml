@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--PersonenListe für Übung 3, SS2021-->
+<PersonenListe>
+  <Person id="1" vorname="Terry" nachname="Gilliam"/>
+  <Person id="2" vorname="John" nachname="Cleese"/>
+  <Person id="3" vorname="Michael" nachname="Palin"/>
+  <Person id="4" vorname="Eric" nachname="Idle"/>
+  <Person id="5" vorname="Terry" nachname="Jones"/>
+  <Person id="6" vorname="Graham" nachname="Chapman"/>
+  <Person id="7" vorname="Harry" nachname="Mayer"/>
+  <Person id="8" vorname="Sally" nachname="Huber"/>
+  <Person id="9" vorname="Henry" nachname="Baker"/>
+  <Person id="10" vorname="Theresa" nachname="Fineman"/>
+  <Person id="11" vorname="Randy" nachname="Keller"/>
+</PersonenListe>

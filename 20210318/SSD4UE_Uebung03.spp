@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Folder FolderName="XPath">
+		<Folder FolderName="XML Files">
+			<File FilePath="kunden.xml" HomeFolder="Yes"/>
+			<File FilePath="person.xml" HomeFolder="Yes"/>
+		</Folder>
+		<Folder FolderName="XML Schema Files">
+			<File FilePath="person.xsd" HomeFolder="Yes"/>
+		</Folder>
+	</Folder>
+	<Folder FolderName="XQuery">
+		<File FilePath="BookDetails.xml" HomeFolder="Yes"/>
+		<File FilePath="person.xml"/>
+		<File FilePath="person.xsd"/>
+		<File FilePath="person_dtd.xml" HomeFolder="Yes"/>
+		<File FilePath="PurchaseOrder.xml" HomeFolder="Yes"/>
+		<File FilePath="xquery_1.xq" HomeFolder="Yes"/>
+		<File FilePath="xquery_2.xq" HomeFolder="Yes"/>
+		<File FilePath="xquery_3.xq" HomeFolder="Yes"/>
+		<File FilePath="xquery_4.xq" HomeFolder="Yes"/>
+		<File FilePath="xquery_5.xq" HomeFolder="Yes"/>
+		<File FilePath="xquery_6.xq" HomeFolder="Yes"/>
+		<File FilePath="xquery_order_details.xq" HomeFolder="Yes"/>
+		<File FilePath="xquery_order_sum.xq" HomeFolder="Yes"/>
+	</Folder>
+	<Folder FolderName="XQuery-Mondial">
+		<Folder FolderName="XML Files">
+			<File FilePath="XQuery_Mondial\mondial.xml" HomeFolder="Yes"/>
+		</Folder>
+		<Folder FolderName="DTD Files">
+			<File FilePath="XQuery_Mondial\mondial.dtd" HomeFolder="Yes"/>
+		</Folder>
+		<Folder FolderName="XQuery Files">
+			<File FilePath="XQuery_Mondial\1_Countries_and_Lakes.xquery" HomeFolder="Yes"/>
+			<File FilePath="XQuery_Mondial\2_Countries_and_Capitals.xquery" HomeFolder="Yes"/>
+		</Folder>
+	</Folder>
+</Project>
