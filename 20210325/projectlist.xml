@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="projectlist.xslt"?>
+<ProjectList
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.fh-hagenberg.at/projectteam projectlist.xsd"
+	xmlns="http://www.fh-hagenberg.at/projectteam"
+	>
+	<Project id="l100" leader="ssn1000" startdate="2020-03-12" enddate="2022-05-02">
+		<Name>UPRISE</Name>
+		<Location>Hagenberg</Location>
+		<Country>Österreich</Country>
+	</Project>
+
+	<Project id="l300" leader="ssn1002" startdate="2017-12-04" enddate="2023-01-15">
+		<Name>CALEMNA</Name>
+		<Location>Linz</Location>
+		<Country>Österreich</Country>
+	</Project>
+	<Project id="l400" leader="ssn1003" startdate="2019-10-27" enddate="2021-12-01">
+		<Name>CORECTUA</Name>
+		<Location>Hagenberg</Location>
+		<Country>Österreich</Country>
+	</Project>
+		<Project id="l200" leader="ssn1000" startdate="2019-02-05" enddate="2020-04-09">
+		<Name>VISION</Name>
+		<Location>Wels</Location>
+		<Country>Österreich</Country>
+	</Project>
+</ProjectList>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="projectteam5.xslt"?>
+
+<ProjectTeam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fh-hagenberg.at/projectteam projectteam.xsd" xmlns="http://www.fh-hagenberg.at/projectteam" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:project="http://www.fh-hagenberg.at/projectteam" projects="projectlist.xml">
+	<Person id="ssn1000" gender="male" born="1972-07-22">
+		<FirstName>Markus</FirstName>
+		<MiddleName>Franz</MiddleName>
+		<LastName>Mustermann</LastName>
+	</Person>
+	<!-- Im XML-Instanzdokument wird durch xsi:type dynamisch der Typ festgelegt ~ Polymorphismus -->
+	<Person xsi:type="PersonExtendedType" id="ssn1001" gender="male" born="1978-10-12" nation="AUT">
+		<FirstName>Meinhard</FirstName>
+		<LastName>Friedrich</LastName>
+		<BirthPlace>Wels</BirthPlace>
+	</Person>
+	<Person id="ssn1002" gender="female">
+		<FirstName>Monika</FirstName>
+		<LastName>Musterfrau</LastName>
+	</Person>
+	<Person id="ssn1003" gender="male">
+		<FirstName>Helmut</FirstName>
+		<LastName>Grabner</LastName>
+	</Person>
+	<Person id="ssn1004" gender="female">
+		<FirstName>Franziska</FirstName>
+		<LastName>Hafner</LastName>
+	</Person>
+	<Person id="ssn1006" gender="female">
+		<FirstName>Brigitte</FirstName>
+		<LastName>Meierlehner</LastName>
+	</Person>
+	<Person id="ssn1007" gender="female">
+		<FirstName>Doris</FirstName>
+		<MiddleName xsi:nil="true"/>
+		<LastName>Gräf</LastName>
+	</Person>
+	<?apache do someting?>
+</ProjectTeam>

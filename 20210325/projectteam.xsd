@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:project="http://www.fh-hagenberg.at/projectteam" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.fh-hagenberg.at/projectteam" elementFormDefault="qualified">
+
+	<xs:element name="ProjectTeam" type="project:ProjectTeamType"/>
+
+	<xs:complexType name="ProjectTeamType">
+		<xs:sequence>
+			<xs:element name="Person" type="project:PersonType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="projects" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="PersonType">
+		<xs:sequence>
+			<xs:element name="FirstName" type="project:ExtendedNameType"/>
+			<xs:element name="MiddleName" type="project:NameType" nillable="true" minOccurs="0"/>
+			<xs:element name="LastName" type="project:NameType"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="project:personAttributes"/>
+	</xs:complexType>
+	<xs:complexType name="PersonExtendedType">
+		<xs:complexContent>
+			<xs:extension base="project:PersonType">
+				<xs:sequence>
+					<xs:element name="BirthPlace" type="xs:string"/>
+				</xs:sequence>
+				<xs:attribute name="nation" type="project:NationType" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:attributeGroup name="personAttributes">
+		<xs:attribute name="id" type="project:IdType" use="required"/>
+		<xs:attribute name="gender" type="project:GenderType" use="required"/>
+		<xs:attribute name="born" type="xs:date" use="optional"/>
+	</xs:attributeGroup>
+	<xs:simpleType name="IdType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="ssn[0-9]{4}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="GenderType">
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:enumeration value="male"/>
+			<xs:enumeration value="female"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="NameType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="20"/>
+			<xs:whiteSpace value="collapse"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="ExtendedNameType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="20"/>
+			<xs:whiteSpace value="collapse"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="NationType">
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:enumeration value="AUT"/>
+			<xs:enumeration value="GER"/>
+			<xs:enumeration value="SUI"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

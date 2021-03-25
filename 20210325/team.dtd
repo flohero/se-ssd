@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!ELEMENT TeamOverview (ProjectTeam)>
+<!ELEMENT ProjectTeam (Person*)>
+<!ELEMENT Person (id, gender, born?, nation?, href?, FirstName, MiddleName?, LastName, BirthPlace?, projects?)>
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT MiddleName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>
+<!ELEMENT BirthPlace (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT born (#PCDATA)>
+<!ELEMENT nation (#PCDATA)>
+<!ELEMENT href (#PCDATA)>
+<!ELEMENT projects (#PCDATA)>
+
+<!ATTLIST TeamOverview
+	creationTime CDATA #IMPLIED
+	xmlns CDATA #IMPLIED
+>
+
+<!ATTLIST ProjectTeam
+	xmlns:xsi CDATA #IMPLIED
+	xmlns:fn CDATA #IMPLIED
+	xmlns:xs CDATA #IMPLIED
+	xmlns:project CDATA #IMPLIED	
+	xmlns CDATA #IMPLIED
+>
+
+<!ATTLIST MiddleName 
+	xsi:nil CDATA #IMPLIED
+>
