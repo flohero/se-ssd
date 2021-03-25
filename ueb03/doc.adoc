@@ -194,7 +194,7 @@ image::./img/2.10.png[]
 [source,xquery]
 ----
 element TerminEnde{
-let $doc := doc("C:\Users\flohe\Projects\se-ssd\ueb03\src\TerminListe.xml")
+let $doc := doc("TerminListe.xml")
 for $x in $doc//Termin[@serienTermin="nein"]/Ende
 order by fn:dateTime(xs:date($x/@datum), xs:time($x/@time))
  return $x
@@ -208,7 +208,7 @@ image::./img/3.1.png[]
 [source,xquery]
 ----
 element Termine {
-let $doc := doc("C:\Users\flohe\Projects\se-ssd\ueb03\src\TerminListe.xml")
+let $doc := doc("TerminListe.xml")
 for $x in $doc//Termin[@serienTermin = 'ja']
 order by xs:date($x/Beginn/@datum) descending
 return element Termin {
@@ -226,7 +226,7 @@ image::./img/3.2.png[]
 [source,xquery]
 ----
 element T {
-let $doc := doc("C:\Users\flohe\Projects\se-ssd\ueb03\src\TerminListe.xml")
+let $doc := doc("TerminListe.xml")
 for $x in $doc//Termin[@serienTermin = 'ja']
 order by xs:date($x/@erstellDatum) 
 return element SerienTermin {
@@ -244,7 +244,7 @@ image::./img/3.3.png[]
 [source,xquery]
 ----
 element ST {
-let $doc := doc("C:\Users\flohe\Projects\se-ssd\ueb03\src\TerminListe.xml")
+let $doc := doc("TerminListe.xml")
 for $x in $doc//Termin[@serienTermin = 'ja']
 where $x/Beginn/@datum = $x/Ende/@datum
 order by $x/Beginn/@datum
@@ -262,7 +262,7 @@ image::./img/3.4.png[]
 [source,xquery]
 ----
 element Beschreibung {
-let $doc := doc("C:\Users\flohe\Projects\se-ssd\ueb03\src\TerminListe.xml")
+let $doc := doc("TerminListe.xml")
 for $x in $doc//Termin[exists(./Benachrichtigung)]
 where $x/Beginn/@datum = $x/Ende/@datum
 return element Termin {
@@ -279,8 +279,8 @@ image::./img/3.5.png[]
 [source,xquery]
 ----
 element Termin {
-let $termine := doc("C:\Users\flohe\Projects\se-ssd\ueb03\src\TerminListe.xml")
-let $persons := doc("C:\Users\flohe\Projects\se-ssd\ueb03\src\PersonenListe.xml")
+let $termine := doc("TerminListe.xml")
+let $persons := doc("PersonenListe.xml")
 
 for $termin in $termine//Termin
 where not(exists($persons//Person[@id = $termin/@terminErsteller]))
@@ -295,8 +295,8 @@ image::./img/3.6.png[]
 [source,xquery]
 ----
 element Stats {
-let $termine := doc("C:\Users\flohe\Projects\se-ssd\ueb03\src\TerminListe.xml")
-let $persons := doc("C:\Users\flohe\Projects\se-ssd\ueb03\src\PersonenListe.xml")
+let $termine := doc("TerminListe.xml")
+let $persons := doc("PersonenListe.xml")
 
 for $person in $persons//Person
 let $terminCount := count($termine//Termin[@terminErsteller=$person/@id])
