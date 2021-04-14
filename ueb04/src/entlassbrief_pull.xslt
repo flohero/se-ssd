@@ -93,12 +93,7 @@
 		<xsl:variable name="titleAfter" select="$patient/Titel[@position='nach']"/>
 		<xsl:if test="$titleAfter">
 			<xsl:text>, </xsl:text>
-			<xsl:for-each select="$titleAfter">
-				<xsl:value-of select="."/>
-				<xsl:if test="position() != last()">
-					<xsl:text>, </xsl:text>
-				</xsl:if>
-			</xsl:for-each>
+			<xsl:value-of select="$titleAfter" separator=", "/>
 		</xsl:if>
 		
 		<br/>
@@ -106,7 +101,7 @@
 		<xsl:value-of select="$patient/Geschlecht"/>
 		<xsl:text> | </xsl:text>
 		<strong>geboren am: </strong>
-		<xsl:value-of select="format-date($patient/Geburtsdatum, '[D]. [MNn] [Y]')"/>
+		<xsl:value-of select="format-date($patient/Geburtsdatum, '[D]. [MNn] [Y]', 'de', (), ())"/>
 		<xsl:text> | </xsl:text>
 		<strong>SVN: </strong>
 		<xsl:value-of select="$patient/SVN"/>
@@ -124,11 +119,11 @@
 		
 		<xsl:if test="$auf/@von">
 			<strong> von </strong>
-			<xsl:value-of select="format-date($auf/@von, '[D] [MNn] [Y]')"/>
+			<xsl:value-of select="format-date($auf/@von, '[D] [MNn] [Y]', 'de', (), ())"/>
 		</xsl:if>
 		<xsl:if test="$auf/@bis">
 			<strong> bis </strong>
-			<xsl:value-of select="format-date($auf/@bis, '[D] [MNn] [Y]')"/>
+			<xsl:value-of select="format-date($auf/@bis, '[D] [MNn] [Y]', 'de', (), ())"/>
 		</xsl:if>
 	</xsl:template>
 	
@@ -159,9 +154,11 @@
 			<tbody>
 				<xsl:for-each select="$dias/Diagnose[@status='offen']">
 				<tr>
-					<th>
-						<xsl:value-of select="@code"/>
-					</th>
+					<td>
+						<strong><xsl:value-of select="@code"/></strong>
+						<xsl:text>, </xsl:text>
+						<xsl:value-of select="."/>
+					</td>
 					<td>
 						<xsl:value-of select="format-date(@von, '[D].[M].[Y]')"/>
 					</td>

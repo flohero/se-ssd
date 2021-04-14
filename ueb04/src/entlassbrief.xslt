@@ -54,14 +54,13 @@
     </xsl:template>
 	
 	<!--TBD-->
-	<xsl:template match="Entlassungsbrief">
-		<strong>Erstellt von: </strong> <xsl:value-of select="./Ersteller"/> <br/>
-		<strong>An: </strong> <xsl:value-of select="./Empfänger"/>
-		<xsl:apply-templates select="Patient"/>
-		<xsl:apply-templates select="Aufenthalt"/>
-		<xsl:apply-templates select="Befundtext"/>
-		<xsl:apply-templates select="Diagnosen"/>
-		<xsl:apply-templates select="Medikation"/>
+	<xsl:template match="Ersteller">
+		<strong>Erstellt von: </strong> <xsl:value-of select="."/> <br/>
+	</xsl:template>
+	
+	<xsl:template match="Empfänger">
+		<strong>Erstellt von: </strong> <xsl:value-of select="."/> <br/>
+		<strong>An: </strong> <xsl:value-of select="."/>
 	</xsl:template>
 	
 	<xsl:template match="Patient">
@@ -75,13 +74,13 @@
 			<xsl:text>, </xsl:text>
 		</xsl:if>
 		
-		<xsl:value-of select="string-join(Titel[@position='nach'], ', ')"/>
+		<xsl:value-of select="Titel[@position='nach']" separator=", "/>
 		<br/>
 		<strong>Geschlecht: </strong>
 		<xsl:value-of select="Geschlecht"/>
 		<xsl:text> | </xsl:text>
 		<strong>geboren am: </strong>
-		<xsl:value-of select="format-date(Geburtsdatum, '[D] [MNn] [Y]')"/>
+		<xsl:value-of select="format-date(Geburtsdatum, '[D] [MNn] [Y]', 'de', (), ())"/>
 		<xsl:text> | </xsl:text>
 		<strong>SVN: </strong>
 		<xsl:value-of select="SVN"/>
@@ -97,12 +96,12 @@
 		</strong>
 		
 		<xsl:if test="@von">
-			<strong> von </strong>
-			<xsl:value-of select="format-date(@von, '[D] [MNn] [Y]')"/>
+			<strong> von: </strong>
+			<xsl:value-of select="format-date(@von, '[D] [MNn] [Y]', 'de', (), ())"/>
 		</xsl:if>
 		<xsl:if test="@bis">
-			<strong> bis </strong>
-			<xsl:value-of select="format-date(@bis, '[D] [MNn] [Y]')"/>
+			<strong> bis: </strong>
+			<xsl:value-of select="format-date(@bis, '[D] [MNn] [Y]', 'de', (), ())"/>
 		</xsl:if>
 	</xsl:template>
 	
