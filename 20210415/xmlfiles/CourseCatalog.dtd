@@ -1,0 +1,50 @@
+<!-- 
+ * Licensed to University of Applied Sciences Upper Austria
+ * http://www.fh-ooe.at/CourseCatalog.dtd           Version 1.0
+ --> 
+<!ELEMENT CourseCatalog ( DegreeProgramme* ) >
+<!ATTLIST CourseCatalog 	year NMTOKEN #REQUIRED 
+							term ( summer | winter ) #REQUIRED 
+							campus ( Hagenberg | Linz | Steyr | Wels ) #REQUIRED >
+ 
+<!ELEMENT DegreeProgramme ( Course* ) >
+<!ATTLIST DegreeProgramme code CDATA #REQUIRED >
+<!ATTLIST DegreeProgramme name CDATA #REQUIRED >
+<!ATTLIST DegreeProgramme abbreviation CDATA #IMPLIED >
+ 
+<!ELEMENT Course ( Title, Description, Credit, CourseType, Date, Time, (Room | Location), Instructor+ ) >
+<!ATTLIST Course id ID #REQUIRED >
+<!ATTLIST Course semesterHours CDATA #REQUIRED >
+<!ATTLIST Course language ( en | de | fr | es | it )  #IMPLIED >
+<!ATTLIST Course semester  CDATA #REQUIRED >
+<!ATTLIST Course basedOn  IDREFS #IMPLIED >
+ 
+<!ELEMENT Title (#PCDATA) >
+<!ELEMENT Description (#PCDATA | Content | Exam | Tool )* >
+<!ELEMENT Content (#PCDATA) >
+<!ELEMENT Exam (#PCDATA) >
+<!ELEMENT Tool (#PCDATA) >
+ 
+ <!ELEMENT Credit (#PCDATA) > 
+ <!ATTLIST Credit formatType ( ECTS | CP ) "ECTS" >
+ 
+<!ELEMENT CourseType EMPTY > 
+<!ATTLIST CourseType type ( Lecture | Seminar | LabSession | PracticeSession | Training ) #REQUIRED >
+
+<!ELEMENT Date EMPTY > 
+<!ATTLIST Date startDate CDATA #REQUIRED  >
+<!ATTLIST Date endDate CDATA #REQUIRED  >
+
+<!ELEMENT Time EMPTY > 
+<!ATTLIST Time startTime CDATA #REQUIRED  >
+<!ATTLIST Time endTime CDATA #REQUIRED  >
+<!ATTLIST Time day ( MON | TUE | WED | THU | FRI | SAT ) #IMPLIED  > 
+
+<!ELEMENT Room (#PCDATA) > 
+<!ATTLIST Room roomNumber CDATA #REQUIRED > 
+<!ATTLIST Room	building ( FH1 | FH2 | FH3 ) #REQUIRED  >
+
+<!ELEMENT Location (#PCDATA) > 
+
+<!ELEMENT Instructor (#PCDATA) > 
+<!ATTLIST Instructor instructorNumber ID #REQUIRED  >

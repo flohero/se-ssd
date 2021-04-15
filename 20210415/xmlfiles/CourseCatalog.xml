@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE CourseCatalog SYSTEM "CourseCatalog.dtd">
+<!-- 
+ * Licensed to University of Applied Sciences Upper Austria
+ * http://www.fh-ooe.at/CourseCatalog.dtd           Version 1.0
+ -->
+<CourseCatalog year="2019" term="summer" campus="Hagenberg">
+	<DegreeProgramme code="0307" name="Software Engineering" abbreviation="SE">
+		<Course id="cID8314" semesterHours="1" language="en" semester="4">
+			<Title>Introduction to semi-structured data models and XML</Title>
+			<Description>Introduction of skills related to XML.<Content>Includes DTD, Schema, XPath,
+					XQuery, XSLT, JSON</Content>
+				<Exam>Final Exam required.</Exam>Participation without any previous knowledge. </Description>
+			<Credit formatType="ECTS">1</Credit>
+			<CourseType type="Lecture"/>
+			<Date startDate="02-28" endDate="05-03"/>
+			<Time startTime="0800" endTime="1025" day="THU"/>
+			<Room roomNumber="1.004" building="FH1">CELUM HS2</Room>
+			<Instructor instructorNumber="p22080">Norbert Niklas</Instructor>
+		</Course>
+		<Course id="cID8315" semesterHours="2" language="en" semester="4" basedOn="cID8314">
+			<Title>Introduction to semi-structured data models and XML</Title>
+			<Description>Introduction of practices related to XML.<Exam>Four assignments have to be
+					prepared.</Exam><Tool>XMLSpy will be supplied as academic
+					license.</Tool>
+			</Description>
+			<Credit formatType="ECTS">1,5</Credit>
+			<CourseType type="LabSession"/>
+			<Date startDate="02-28" endDate="04-13"/>
+			<Time startTime="1120" endTime="1435" day="SAT"/>
+			<Room roomNumber="3.108" building="FH3">XORTEX LBS3</Room>
+			<Instructor instructorNumber="p20623">Barbara Traxler</Instructor>
+		</Course>
+		<Course id="cID_7555" semesterHours="1" language="en" semester="6">
+			<Title>Intercultural Communications</Title>
+			<!-- test -->
+			<Description>Different types and objectives of fake news. Will make fake news great again.</Description>
+			<Credit formatType="ECTS">0,5</Credit>
+			<CourseType type="Training"/>
+			<Date startDate="15-01" endDate="16-01"/>
+			<Time startTime="0900" endTime="1630"/>
+			<Location>White House and Moskovskij Kreml</Location>
+			<Instructor instructorNumber="p22100">Donald Trump</Instructor>
+			<Instructor instructorNumber="p22101">Wladimir Putin</Instructor>
+		</Course>
+	</DegreeProgramme>
+</CourseCatalog>
