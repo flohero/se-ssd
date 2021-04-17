@@ -40,13 +40,13 @@ public class BookHandler extends DefaultHandler {
         currentTag = qName;
         currentIsEmpty = true;
         StringBuilder attributeBuilder = new StringBuilder();
+        currentIsEmpty = attributes.getLength() == 0;
         for (int i = 0; i < attributes.getLength(); i++) {
             attributeBuilder.append(attributes.getQName(i))
                     .append("=\"")
                     .append(attributes.getValue(i))
                     .append("\"")
                     .append(" ");
-            currentIsEmpty = false; // If it has attributes the element is not empty
         }
         StringBuilder currElementBuilder = new StringBuilder();
         currElementBuilder
