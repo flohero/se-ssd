@@ -30,7 +30,7 @@ public class SAXWriteElementsHandler extends DefaultHandler {
 
     @Override
     public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
-        StringBuffer buffer = new StringBuffer();
+        StringBuilder buffer = new StringBuilder();
         for (int i = 0; i < attributes.getLength(); i++) {
             buffer.append(attributes.getQName(i))
                     .append("=\"")
@@ -56,7 +56,6 @@ public class SAXWriteElementsHandler extends DefaultHandler {
     @Override
     public void endElement(String uri, String localName, String qName) throws SAXException {
         blanks.delete(0, 1);
-
         writer.println(blanks + "</" + qName + ">");
     }
 

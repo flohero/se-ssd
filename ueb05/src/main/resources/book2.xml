@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Rechnungen SYSTEM "books.dtd">
+<Rechnungen>
+    <Rechnung>
+        <Rechnungsposten>
+            <Posten nr="1">
+                <Buch>
+                    <Titel>Practical Guide to SGML/XML Filters</Titel>
+                    <Autor>Clive Finklestein, Peter G. Aiken</Autor>
+                    <Verlag>Prentice Hall</Verlag>
+                    <Erscheinungsdatum>September, 1998</Erscheinungsdatum>
+                    <Preis waehrung="Dollar">17.89</Preis>
+                    <Seiten>754</Seiten>
+                    <ISBN>1-861-00228-9</ISBN>
+                    <Empfehlung>Recycle It</Empfehlung>
+                </Buch>
+            </Posten>
+            <Posten nr="2">
+                <Buch>
+                    <Titel>Understanding SGML and XML Tools: Practical Programs for Handling Structured Text</Titel>
+                    <Autor>Peter Flynn</Autor>
+                    <Autor>Clive Finklestein, Peter G. Aiken</Autor>
+                    <Verlag></Verlag>
+                    <Erscheinungsdatum>August, 1998</Erscheinungsdatum>
+                    <Preis waehrung="Euro">28.26</Preis>
+                    <Seiten>559</Seiten>
+                    <ISBN>0-764-53236-7</ISBN>
+                    <Empfehlung>Order from amazon</Empfehlung>
+                </Buch>
+            </Posten>
+            <Posten nr="3">
+                <Buch>
+                    <Titel>Professional XML Applications</Titel>
+                    <Autor>Simon North, Paul Hermans</Autor>
+                    <Verlag>Kluwer Academic Publishing</Verlag>
+                    <Erscheinungsdatum>Juni, 1997</Erscheinungsdatum>
+                    <Preis waehrung="Euro">77.67</Preis>
+                    <Seiten>690</Seiten>
+                    <ISBN>1-558-60622-X</ISBN>
+                    <Empfehlung>Browse It</Empfehlung>
+                </Buch>
+            </Posten>
+            <Posten nr="4">
+                <Buch>
+                    <Titel>The XML Companion</Titel>
+                    <Autor>Jon Duckett, Mark Birbeck, Michael Kay, Stephen F. Mohr, Didier Martin, Steven Livingston
+                    </Autor>
+                    <Autor>Elliotte Rusty Harold</Autor>
+                    <Verlag>Kluwer Academic Press</Verlag>
+                    <Erscheinungsdatum>August, 1998</Erscheinungsdatum>
+                    <Preis waehrung="Dollar">52.91</Preis>
+                    <Seiten>594</Seiten>
+                    <ISBN>0-136-42299-3</ISBN>
+                    <Empfehlung>Order from amazon</Empfehlung>
+                </Buch>
+            </Posten>
+            <Posten nr="5">
+                <Buch>
+                    <Titel>XML Black Book</Titel>
+                    <Autor>James Britt, Teun Duynstee, Dan Denault, Ash Rofail, John Messing, Kevin Lundy</Autor>
+                    <Autor>Lee Purcell</Autor>
+                    <Verlag>Kluwer Academic Press</Verlag>
+                    <Erscheinungsdatum>Juni, 1999</Erscheinungsdatum>
+                    <Preis waehrung="Dollar">58.90</Preis>
+                    <Seiten>230</Seiten>
+                    <ISBN>0-471-24577-1</ISBN>
+                    <Empfehlung>Buy It</Empfehlung>
+                </Buch>
+            </Posten>
+            <Posten nr="6">
+                <Buch>
+                    <Titel>Building XML Applications</Titel>
+                    <Autor>Bryan Pfaffenberger</Autor>
+                    <Autor>Simon St.Laurent</Autor>
+                    <Verlag>John Wiley &amp; Sons</Verlag>
+                    <Erscheinungsdatum>Dezember, 1997</Erscheinungsdatum>
+                    <Preis waehrung="Euro">44.85</Preis>
+                    <Seiten>751</Seiten>
+                    <ISBN>0-782-12340-6</ISBN>
+                    <Empfehlung>Browse It</Empfehlung>
+                </Buch>
+            </Posten>
+            <Posten nr="7">
+                <Buch>
+                    <Titel>XML in Record Time</Titel>
+                    <Autor>Chuck White, Ann Navarro, Linda Burman</Autor>
+                    <Autor>Simon St. Laurent, Ethan Cerami</Autor>
+                    <Verlag>O'Reilly &amp; Associates</Verlag>
+                    <Erscheinungsdatum>Oktober, 1999</Erscheinungsdatum>
+                    <Preis waehrung="Dollar">61.92</Preis>
+                    <Seiten>332</Seiten>
+                    <ISBN>0-792-39943-9</ISBN>
+                    <Empfehlung>Recycle It</Empfehlung>
+                </Buch>
+            </Posten>
+            <Posten nr="8">
+                <Buch>
+                    <Titel>The XML Bible</Titel>
+                    <Autor>Bryan Pfaffenberger</Autor>
+                    <Verlag>Addison-Wesley</Verlag>
+                    <Erscheinungsdatum>Oktober, 1999</Erscheinungsdatum>
+                    <Preis waehrung="Euro">43.80</Preis>
+                    <Seiten>403</Seiten>
+                    <ISBN>0-735-60562-</ISBN>
+                    <Empfehlung>Browse It</Empfehlung>
+                </Buch>
+            </Posten>
+            <Posten nr="9">
+                <Buch>
+                    <Titel>The XML Companion</Titel>
+                    <Autor>Simon St.Laurent</Autor>
+                    <Autor>John Simpson</Autor>
+                    <Verlag></Verlag>
+                    <Erscheinungsdatum>Dezember, 1999</Erscheinungsdatum>
+                    <Preis waehrung="Euro">28.45</Preis>
+                    <Seiten>584</Seiten>
+                    <ISBN>1-861-00165-7</ISBN>
+                    <Empfehlung>Recycle It</Empfehlung>
+                </Buch>
+            </Posten>
+        </Rechnungsposten>
+    </Rechnung>
+</Rechnungen>

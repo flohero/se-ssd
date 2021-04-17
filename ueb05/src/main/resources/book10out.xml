@@ -1,0 +1,417 @@
+<Rechnungen >
+	<Rechnung >
+		<Rechnungsposten >
+			<Posten nr="1" >
+				<Buch >
+					<Titel >
+						XML for Dummies Quick Reference
+					</Titel>
+					<Autor >
+						Serge Abiteboul, Peter Buneman, Dan Suciu
+					</Autor>
+					<Verlag >
+						Morgan Kaufman
+					</Verlag>
+					<Erscheinungsdatum >
+						Jaenner, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						31.48
+					</Preis>
+					<Seiten >
+						283
+					</Seiten>
+					<ISBN >
+						1-575-21396-6
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="2" >
+				<Buch >
+					<Titel >
+						Structuring XML Documents
+					</Titel>
+					<Autor >
+						Steven Holzner
+					</Autor>
+					<Autor >
+						James Britt, Teun Duynstee, Dan Denault, Ash Rofail, John Messing, Kevin Lundy
+					</Autor>
+					<Verlag >
+						Sams
+					</Verlag>
+					<Erscheinungsdatum >
+						Juli, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						63.27
+					</Preis>
+					<Seiten >
+						455
+					</Seiten>
+					<ISBN >
+						1-575-21396-6
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="3" >
+				<Buch >
+					<Titel >
+						XML Pocket Reference
+					</Titel>
+					<Autor >
+						Simon St.Laurent
+					</Autor>
+					<Autor >
+						Jon Duckett, Mark Birbeck, Michael Kay, Stephen F. Mohr, Didier Martin, Steven Livingston
+					</Autor>
+					<Verlag >
+						Addison-Wesley
+					</Verlag>
+					<Erscheinungsdatum >
+						Maerz, 199
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						52.90
+					</Preis>
+					<Seiten >
+						677
+					</Seiten>
+					<ISBN >
+						0-130-14714-1
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="4" >
+				<Buch >
+					<Titel >
+						Inside XML DTDs: Scientific and Technical
+					</Titel>
+					<Autor >
+						Mark Watson
+					</Autor>
+					<Autor >
+						Simon North, Paul Hermans
+					</Autor>
+					<Verlag >
+						Sams
+					</Verlag>
+					<Erscheinungsdatum >
+						April, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						98.83
+					</Preis>
+					<Seiten >
+						658
+					</Seiten>
+					<ISBN >
+						0-789-71759-X
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="5" >
+				<Buch >
+					<Titel >
+						XML Elements of Style
+					</Titel>
+					<Autor >
+						Michel Gossens, Sebastian Rahtz
+					</Autor>
+					<Verlag >
+						Academic Press/Morgan Kaufmann
+					</Verlag>
+					<Erscheinungsdatum >
+						Dezember, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Dollar" >
+						78.65
+					</Preis>
+					<Seiten >
+						168
+					</Seiten>
+					<ISBN >
+						0-782-12266-3
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="6" >
+				<Buch >
+					<Titel >
+						Teach Yourself XML in 21 Days
+					</Titel>
+					<Autor >
+						Frank Boumphrey, Olivia di Renzo, Jon Duckett, Joe Graf, Paul Houle
+					</Autor>
+					<Autor >
+						Michael Leventhal, David Lewis, Matthew Fuchs
+					</Autor>
+					<Verlag >
+						Wrox
+					</Verlag>
+					<Erscheinungsdatum >
+						Jaenner, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						39.74
+					</Preis>
+					<Seiten >
+						482
+					</Seiten>
+					<ISBN >
+						0-071-34115-3
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="7" >
+				<Buch >
+					<Titel >
+						Practical Guide to SGML/XML Filters
+					</Titel>
+					<Autor >
+						Dan Connolly
+					</Autor>
+					<Verlag >
+						Eyrolles
+					</Verlag>
+					<Erscheinungsdatum >
+						Juni, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						43.86
+					</Preis>
+					<Seiten >
+						268
+					</Seiten>
+					<ISBN >
+						0-782-12266-3
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="8" >
+				<Buch >
+					<Titel >
+						XML by Example : A Webmaster's Guide
+					</Titel>
+					<Autor >
+						Kevin Dick
+					</Autor>
+					<Verlag >
+						Kluwer Academic Press
+					</Verlag>
+					<Erscheinungsdatum >
+						September, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						37.19
+					</Preis>
+					<Seiten >
+						96
+					</Seiten>
+					<ISBN >
+						 0-471-32753-0
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="9" >
+				<Buch >
+					<Titel >
+						Professional Visual Basic 6 XML
+					</Titel>
+					<Autor >
+						Simon North, Paul Hermans
+					</Autor>
+					<Verlag >
+						John Wiley 
+						&amp;
+						 Sons
+					</Verlag>
+					<Erscheinungsdatum >
+						Juli, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						71.80
+					</Preis>
+					<Seiten >
+						460
+					</Seiten>
+					<ISBN >
+						1-556-22587-3
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="10" >
+				<Buch >
+					<Titel >
+						The XML Handbook
+					</Titel>
+					<Autor >
+						James Britt, Teun Duynstee, Dan Denault, Ash Rofail, John Messing, Kevin Lundy
+					</Autor>
+					<Verlag >
+						Morgan Kaufman
+					</Verlag>
+					<Erscheinungsdatum >
+						Mai, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						67.63
+					</Preis>
+					<Seiten >
+						516
+					</Seiten>
+					<ISBN >
+						0-130-86601-6
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="11" >
+				<Buch >
+					<Titel >
+						Web Publishing With XML in Six Easy Steps
+					</Titel>
+					<Autor >
+						Norman E. Smith
+					</Autor>
+					<Autor >
+						Mark Watson
+					</Autor>
+					<Verlag >
+						Addison-Wesley
+					</Verlag>
+					<Erscheinungsdatum >
+						Maerz, 2000
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						24.45
+					</Preis>
+					<Seiten >
+						84
+					</Seiten>
+					<ISBN >
+						0-130-81152-1
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="12" >
+				<Buch >
+					<Titel >
+						XML in IE5 Programmer's Reference
+					</Titel>
+					<Autor >
+						Simon North, Paul Hermans
+					</Autor>
+					<Verlag >
+						Que
+					</Verlag>
+					<Erscheinungsdatum >
+						Jaenner, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						65.57
+					</Preis>
+					<Seiten >
+						174
+					</Seiten>
+					<ISBN >
+						2-212-09052-8
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="13" >
+				<Buch >
+					<Titel >
+						XML in IE5 Programmer's Reference
+					</Titel>
+					<Autor >
+						Steven Holzner
+					</Autor>
+					<Verlag >
+						Wordware Publishing
+					</Verlag>
+					<Erscheinungsdatum >
+						Mai, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						10.25
+					</Preis>
+					<Seiten >
+						733
+					</Seiten>
+					<ISBN >
+						0-079-13705-9
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="14" >
+				<Buch >
+					<Titel >
+						Teach Yourself XML in 21 Days
+					</Titel>
+					<Autor >
+						Chuck White, Ann Navarro, Linda Burman
+					</Autor>
+					<Verlag >
+						Coriolis
+					</Verlag>
+					<Erscheinungsdatum >
+						April, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						94.67
+					</Preis>
+					<Seiten >
+						97
+					</Seiten>
+					<ISBN >
+						0-136-81511-1
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+		</Rechnungsposten>
+	</Rechnung>
+<Statistik>
+<leereElemente>0</leereElemente>
+</Statistik></Rechnungen>

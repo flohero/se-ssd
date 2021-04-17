@@ -1,0 +1,3106 @@
+<Rechnungen >
+	<Rechnung >
+		<Rechnungsposten >
+			<Posten nr="1" >
+				<Buch >
+					<Titel >
+						Designing XML Internet Applications
+					</Titel>
+					<Autor >
+						Alex Homer
+					</Autor>
+					<Autor >
+						Frank Boumphrey
+					</Autor>
+					<Verlag >
+						Que
+					</Verlag>
+					<Erscheinungsdatum >
+						Maerz, 199
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						53.55
+					</Preis>
+					<Seiten >
+						82
+					</Seiten>
+					<ISBN >
+						0-764-53199-9
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="2" >
+				<Buch >
+					<Titel >
+						XML Specification Guide
+					</Titel>
+					<Autor >
+						Dan Connolly
+					</Autor>
+					<Verlag >
+						Prentice Hall
+					</Verlag>
+					<Erscheinungsdatum >
+						August, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Dollar" >
+						73.54
+					</Preis>
+					<Seiten >
+						625
+					</Seiten>
+					<ISBN >
+						0-130-86601-6
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="3" >
+				<Buch >
+					<Titel >
+						Professional XML Applications
+					</Titel>
+					<Autor >
+						David Megginson
+					</Autor>
+					<Verlag >
+						Morgan Kaufman
+					</Verlag>
+					<Erscheinungsdatum >
+						Dezember, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						66.39
+					</Preis>
+					<Seiten >
+						104
+					</Seiten>
+					<ISBN >
+						0-139-60162-7
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="4" >
+				<Buch >
+					<Titel >
+						Client/Server Data Access With Java and XML
+					</Titel>
+					<Autor >
+						Paul Spencer
+					</Autor>
+					<Autor >
+						Kevin Dick
+					</Autor>
+					<Verlag >
+						Wrox
+					</Verlag>
+					<Erscheinungsdatum >
+						Juni, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						41.48
+					</Preis>
+					<Seiten >
+						545
+					</Seiten>
+					<ISBN >
+						0-201-43311-7
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="5" >
+				<Buch >
+					<Titel >
+						XML for Dummies Quick Reference
+					</Titel>
+					<Autor >
+						Steven Holzner
+					</Autor>
+					<Verlag >
+						Prentice Hall Computer Books
+					</Verlag>
+					<Erscheinungsdatum >
+						Jaenner, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						15.17
+					</Preis>
+					<Seiten >
+						705
+					</Seiten>
+					<ISBN >
+						0-130-81152-1
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="6" >
+				<Buch >
+					<Titel >
+						XML in Record Time
+					</Titel>
+					<Autor >
+						Serge Abiteboul, Peter Buneman, Dan Suciu
+					</Autor>
+					<Autor >
+						Simon St. Laurent
+					</Autor>
+					<Verlag >
+						Que
+					</Verlag>
+					<Erscheinungsdatum >
+						Juli, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						71.44
+					</Preis>
+					<Seiten >
+						190
+					</Seiten>
+					<ISBN >
+						0-201-43335-4
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="7" >
+				<Buch >
+					<Titel >
+						The Latex Web Companion : Integrating TeX, HTML and XML
+					</Titel>
+					<Autor >
+						Alain Michard
+					</Autor>
+					<Autor >
+						Alex Homer
+					</Autor>
+					<Verlag >
+						John Wiley 
+						&amp;
+						 Sons
+					</Verlag>
+					<Erscheinungsdatum >
+						Jaenner, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						26.85
+					</Preis>
+					<Seiten >
+						558
+					</Seiten>
+					<ISBN >
+						1-556-22587-3
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="8" >
+				<Buch >
+					<Titel >
+						XML Web Kit
+					</Titel>
+					<Autor >
+						Steven Holzner
+					</Autor>
+					<Verlag >
+						Addison-Wesley
+					</Verlag>
+					<Erscheinungsdatum >
+						Maerz, 199
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						40.33
+					</Preis>
+					<Seiten >
+						439
+					</Seiten>
+					<ISBN >
+						0-136-81511-1
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="9" >
+				<Buch >
+					<Titel >
+						The XML Companion
+					</Titel>
+					<Autor >
+						Simon St. Laurent, Ethan Cerami
+					</Autor>
+					<Verlag >
+						Academic Press
+					</Verlag>
+					<Erscheinungsdatum >
+						November, 1997
+					</Erscheinungsdatum>
+					<Preis waehrung="Dollar" >
+						97.25
+					</Preis>
+					<Seiten >
+						428
+					</Seiten>
+					<ISBN >
+						1-861-00152-5
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="10" >
+				<Buch >
+					<Titel >
+						Building Web Sites with XML
+					</Titel>
+					<Autor >
+						James Britt, Teun Duynstee, Dan Denault, Ash Rofail, John Messing, Kevin Lundy
+					</Autor>
+					<Autor >
+						Eric Ladd, Jim O'Donnell
+					</Autor>
+					<Verlag >
+						John Wiley 
+						&amp;
+						 Sons
+					</Verlag>
+					<Erscheinungsdatum >
+						Juni, 1997
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						94.67
+					</Preis>
+					<Seiten >
+						446
+					</Seiten>
+					<ISBN >
+						0-792-38169-
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="11" >
+				<Buch >
+					<Titel >
+						The XML Handbook
+					</Titel>
+					<Autor >
+						Steven Holzner
+					</Autor>
+					<Autor >
+						Jon Duckett, Mark Birbeck, Michael Kay, Stephen F. Mohr, Didier Martin, Steven Livingston
+					</Autor>
+					<Verlag >
+						DG Books Worldwide
+					</Verlag>
+					<Erscheinungsdatum >
+						August, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						80.96
+					</Preis>
+					<Seiten >
+						268
+					</Seiten>
+					<ISBN >
+						0-125-53166-4
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="12" >
+				<Buch >
+					<Titel >
+						XML Black Book
+					</Titel>
+					<Autor >
+						Paul Spencer
+					</Autor>
+					<Verlag >
+						Wordware Publishing
+					</Verlag>
+					<Erscheinungsdatum >
+						November, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						88.60
+					</Preis>
+					<Seiten >
+						658
+					</Seiten>
+					<ISBN >
+						1-861-00152-5
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="13" >
+				<Buch >
+					<Titel >
+						Structuring XML Documents
+					</Titel>
+					<Autor >
+						Robert Eckstein
+					</Autor>
+					<Autor >
+						Charles F. Goldfarb, Paul Prescod
+					</Autor>
+					<Verlag >
+						DG Books Worldwide
+					</Verlag>
+					<Erscheinungsdatum >
+						Dezember, 1997
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						35.34
+					</Preis>
+					<Seiten >
+						369
+					</Seiten>
+					<ISBN >
+						0-136-16822-1
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="14" >
+				<Buch >
+					<Titel >
+						Just XML
+					</Titel>
+					<Autor >
+						Michael Leventhal, David Lewis, Matthew Fuchs
+					</Autor>
+					<Verlag >
+						Microsoft Press
+					</Verlag>
+					<Erscheinungsdatum >
+						Juni, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						31.77
+					</Preis>
+					<Seiten >
+						755
+					</Seiten>
+					<ISBN >
+						0-136-81511-1
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="15" >
+				<Buch >
+					<Titel >
+						XML: A Manager's Guide
+					</Titel>
+					<Autor >
+						Simon St. Laurent, Ethan Cerami
+					</Autor>
+					<Autor >
+						Kevin Dick
+					</Autor>
+					<Verlag >
+						DG Books Worldwide
+					</Verlag>
+					<Erscheinungsdatum >
+						August, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						56.84
+					</Preis>
+					<Seiten >
+						675
+					</Seiten>
+					<ISBN >
+						0-201-43311-7
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="16" >
+				<Buch >
+					<Titel >
+						The SGML FAQ Book: Understanding the Foundation of HTML and XML
+					</Titel>
+					<Autor >
+						Will Kelly, Natanya Pitts-Moultis
+					</Autor>
+					<Verlag >
+						Sams
+					</Verlag>
+					<Erscheinungsdatum >
+						Oktober, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						39.43
+					</Preis>
+					<Seiten >
+						228
+					</Seiten>
+					<ISBN >
+						0-471-25168-2
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+		</Rechnungsposten>
+	</Rechnung>
+	<Rechnung >
+		<Rechnungsposten >
+			<Posten nr="1" >
+				<Buch >
+					<Titel >
+						Designing XML Internet Applications
+					</Titel>
+					<Autor >
+						Robert Ducharme
+					</Autor>
+					<Autor >
+						Charles F. Goldfarb, Paul Prescod
+					</Autor>
+					<Verlag >
+						Academic Press
+					</Verlag>
+					<Erscheinungsdatum >
+						Jaenner, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						17.55
+					</Preis>
+					<Seiten >
+						62
+					</Seiten>
+					<ISBN >
+						1-861-00228-9
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="2" >
+				<Buch >
+					<Titel >
+						XML: Extensible Markup Language
+					</Titel>
+					<Autor >
+						John Simpson
+					</Autor>
+					<Verlag >
+						Coriolis
+					</Verlag>
+					<Erscheinungsdatum >
+						August, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						58.98
+					</Preis>
+					<Seiten >
+						499
+					</Seiten>
+					<ISBN >
+						0-130-14714-1
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="3" >
+				<Buch >
+					<Titel >
+						XML: Extensible Markup Language
+					</Titel>
+					<Autor >
+						Frank Boumphrey, Olivia di Renzo, Jon Duckett, Joe Graf, Paul Houle
+					</Autor>
+					<Autor >
+						Jon Duckett, Mark Birbeck, Michael Kay, Stephen F. Mohr, Didier Martin, Steven Livingston
+					</Autor>
+					<Verlag >
+						IDG
+					</Verlag>
+					<Erscheinungsdatum >
+						Juni, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						34.69
+					</Preis>
+					<Seiten >
+						527
+					</Seiten>
+					<ISBN >
+						0-735-60562-
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="4" >
+				<Buch >
+					<Titel >
+						Professional Stylesheets for HTML and XML
+					</Titel>
+					<Autor >
+						David Megginson
+					</Autor>
+					<Verlag >
+						Kluwer Academic Press
+					</Verlag>
+					<Erscheinungsdatum >
+						Juni, 1997
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						16.12
+					</Preis>
+					<Seiten >
+						63
+					</Seiten>
+					<ISBN >
+						0-201-43311-7
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="5" >
+				<Buch >
+					<Titel >
+						Designing XML Internet Applications
+					</Titel>
+					<Autor >
+						Frank Boumphrey, Olivia di Renzo, Jon Duckett, Joe Graf, Paul Houle
+					</Autor>
+					<Autor >
+						Steven J. Derose
+					</Autor>
+					<Verlag >
+						IDG Books
+					</Verlag>
+					<Erscheinungsdatum >
+						Juni, 1997
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						96.90
+					</Preis>
+					<Seiten >
+						196
+					</Seiten>
+					<ISBN >
+						1-565-92349-9
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="6" >
+				<Buch >
+					<Titel >
+						Building Corporate Portals With XML
+					</Titel>
+					<Autor >
+						Sandra E. Eddy
+					</Autor>
+					<Verlag >
+						IDG Books
+					</Verlag>
+					<Erscheinungsdatum >
+						Maerz, 2000
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						46.21
+					</Preis>
+					<Seiten >
+						693
+					</Seiten>
+					<ISBN >
+						0-130-20354-8
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="7" >
+				<Buch >
+					<Titel >
+						XML for Dummies Quick Reference
+					</Titel>
+					<Autor >
+						Simon St. Laurent, Ethan Cerami
+					</Autor>
+					<Verlag >
+						John Wiley 
+						&amp;
+						 Sons
+					</Verlag>
+					<Erscheinungsdatum >
+						November, 1997
+					</Erscheinungsdatum>
+					<Preis waehrung="Dollar" >
+						20.11
+					</Preis>
+					<Seiten >
+						435
+					</Seiten>
+					<ISBN >
+						0-792-38169-
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="8" >
+				<Buch >
+					<Titel >
+						Professional XML Applications
+					</Titel>
+					<Autor >
+						Robert Ducharme
+					</Autor>
+					<Autor >
+						Simon St. Laurent
+					</Autor>
+					<Verlag >
+						Academic Press
+					</Verlag>
+					<Erscheinungsdatum >
+						August, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						34.69
+					</Preis>
+					<Seiten >
+						448
+					</Seiten>
+					<ISBN >
+						0-130-20354-8
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="9" >
+				<Buch >
+					<Titel >
+						Professional Visual Basic 6 XML
+					</Titel>
+					<Autor >
+						Peter Flynn
+					</Autor>
+					<Autor >
+						Robert Eckstein
+					</Autor>
+					<Verlag >
+						Kluwer Academic Publishing
+					</Verlag>
+					<Erscheinungsdatum >
+						November, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						61.88
+					</Preis>
+					<Seiten >
+						631
+					</Seiten>
+					<ISBN >
+						1-861-00311-0
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="10" >
+				<Buch >
+					<Titel >
+						Structuring XML Documents
+					</Titel>
+					<Autor >
+						Neil Bradley
+					</Autor>
+					<Verlag >
+						Sams
+					</Verlag>
+					<Erscheinungsdatum >
+						Mai, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						19.46
+					</Preis>
+					<Seiten >
+						684
+					</Seiten>
+					<ISBN >
+						0-471-24577-1
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="11" >
+				<Buch >
+					<Titel >
+						The XML Handbook
+					</Titel>
+					<Autor >
+						Liam Quin, Ian S. Graham
+					</Autor>
+					<Autor >
+						Simon St. Laurent, Ethan Cerami
+					</Autor>
+					<Verlag >
+						Morgan Kaufman
+					</Verlag>
+					<Erscheinungsdatum >
+						September, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						77.97
+					</Preis>
+					<Seiten >
+						380
+					</Seiten>
+					<ISBN >
+						1-575-21334-6
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="12" >
+				<Buch >
+					<Titel >
+						XML in Action
+					</Titel>
+					<Autor >
+						Chuck White, Ann Navarro, Linda Burman
+					</Autor>
+					<Autor >
+						Rick Jelliffe
+					</Autor>
+					<Verlag >
+						IDG Books
+					</Verlag>
+					<Erscheinungsdatum >
+						Februar, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Dollar" >
+						69.24
+					</Preis>
+					<Seiten >
+						569
+					</Seiten>
+					<ISBN >
+						0-136-16822-1
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+		</Rechnungsposten>
+	</Rechnung>
+	<Rechnung >
+		<Rechnungsposten >
+			<Posten nr="1" >
+				<Buch >
+					<Titel >
+						XML Complete
+					</Titel>
+					<Autor >
+						Dan Chang, Dan Harkey
+					</Autor>
+					<Autor >
+						David Megginson
+					</Autor>
+					<Verlag >
+						Morgan Kaufman
+					</Verlag>
+					<Erscheinungsdatum >
+						Jaenner, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						87.16
+					</Preis>
+					<Seiten >
+						341
+					</Seiten>
+					<ISBN >
+						1-565-92349-9
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="2" >
+				<Buch >
+					<Titel >
+						Practical Guide to SGML/XML Filters
+					</Titel>
+					<Autor >
+						Natanya Pitts-Moultis
+					</Autor>
+					<Autor >
+						Eric Ladd, Jim O'Donnell
+					</Autor>
+					<Verlag >
+						Sybex
+					</Verlag>
+					<Erscheinungsdatum >
+						September, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						94.60
+					</Preis>
+					<Seiten >
+						388
+					</Seiten>
+					<ISBN >
+						0-792-39943-9
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="3" >
+				<Buch >
+					<Titel >
+						Client/Server Data Access With Java and XML
+					</Titel>
+					<Autor >
+						Eric Ladd, Jim O'Donnell
+					</Autor>
+					<Verlag >
+						IDG Books
+					</Verlag>
+					<Erscheinungsdatum >
+						Juni, 1997
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						47.35
+					</Preis>
+					<Seiten >
+						709
+					</Seiten>
+					<ISBN >
+						0-136-81511-1
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="4" >
+				<Buch >
+					<Titel >
+						Pure XML
+					</Titel>
+					<Autor >
+						Bryan Pfaffenberger
+					</Autor>
+					<Autor >
+						Rick Jelliffe
+					</Autor>
+					<Verlag >
+						Kluwer Academic Publishing
+					</Verlag>
+					<Erscheinungsdatum >
+						Mai, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						30.97
+					</Preis>
+					<Seiten >
+						722
+					</Seiten>
+					<ISBN >
+						0-139-43417-
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="5" >
+				<Buch >
+					<Titel >
+						Platinum Edition Using HTML 4, XML and Java 1.2
+					</Titel>
+					<Autor >
+						Eric Ladd, Jim O'Donnell
+					</Autor>
+					<Autor >
+						Simon St.Laurent
+					</Autor>
+					<Verlag >
+						Academic Press/Morgan Kaufmann
+					</Verlag>
+					<Erscheinungsdatum >
+						Jaenner, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						73.71
+					</Preis>
+					<Seiten >
+						379
+					</Seiten>
+					<ISBN >
+						0-201-34285-5
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="6" >
+				<Buch >
+					<Titel >
+						Understanding SGML and XML Tools: Practical Programs for Handling Structured Text 
+					</Titel>
+					<Autor >
+						Jon Duckett, Mark Birbeck, Michael Kay, Stephen F. Mohr, Didier Martin, Steven Livingston
+					</Autor>
+					<Autor >
+						Kevin Dick
+					</Autor>
+					<Verlag >
+						Kluwer Academic Publishing
+					</Verlag>
+					<Erscheinungsdatum >
+						Juni, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						83.51
+					</Preis>
+					<Seiten >
+						759
+					</Seiten>
+					<ISBN >
+						0-782-12340-6
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="7" >
+				<Buch >
+					<Titel >
+						Web Publishing With XML in Six Easy Steps
+					</Titel>
+					<Autor >
+						David Megginson
+					</Autor>
+					<Verlag >
+						Kluwer Academic Publishing
+					</Verlag>
+					<Erscheinungsdatum >
+						Jaenner, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						84.52
+					</Preis>
+					<Seiten >
+						309
+					</Seiten>
+					<ISBN >
+						0-071-34115-3
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="8" >
+				<Buch >
+					<Titel >
+						The Latex Web Companion : Integrating TeX, HTML and XML
+					</Titel>
+					<Autor >
+						Mark Watson
+					</Autor>
+					<Verlag >
+						DG Books Worldwide
+					</Verlag>
+					<Erscheinungsdatum >
+						Februar, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						79.68
+					</Preis>
+					<Seiten >
+						202
+					</Seiten>
+					<ISBN >
+						1-861-00165-7
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="9" >
+				<Buch >
+					<Titel >
+						Building Corporate Portals With XML
+					</Titel>
+					<Autor >
+						Ed Tittle, James Michael Stewart, Ramesh Chandak
+					</Autor>
+					<Verlag >
+						Morgan Kaufman
+					</Verlag>
+					<Erscheinungsdatum >
+						Jaenner, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						70.57
+					</Preis>
+					<Seiten >
+						733
+					</Seiten>
+					<ISBN >
+						1-861-00152-5
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="10" >
+				<Buch >
+					<Titel >
+						The XML Handbook
+					</Titel>
+					<Autor >
+						Natanya Pitts-Moultis
+					</Autor>
+					<Verlag >
+						DG Books Worldwide
+					</Verlag>
+					<Erscheinungsdatum >
+						Februar, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Dollar" >
+						29.79
+					</Preis>
+					<Seiten >
+						735
+					</Seiten>
+					<ISBN >
+						0-136-14223-0
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="11" >
+				<Buch >
+					<Titel >
+						The XML Handbook
+					</Titel>
+					<Autor >
+						Liam Quin, Ian S. Graham
+					</Autor>
+					<Autor >
+						Sandra E. Eddy
+					</Autor>
+					<Erscheinungsdatum >
+						November, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						19.27
+					</Preis>
+					<Seiten >
+						145
+					</Seiten>
+					<ISBN >
+						1-556-22587-3
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="12" >
+				<Buch >
+					<Titel >
+						XML Web Kit
+					</Titel>
+					<Autor >
+						Eric Ladd, Jim O'Donnell
+					</Autor>
+					<Verlag >
+						Academic Press/Morgan Kaufmann
+					</Verlag>
+					<Erscheinungsdatum >
+						April, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						80.81
+					</Preis>
+					<Seiten >
+						116
+					</Seiten>
+					<ISBN >
+						0-130-14714-1
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="13" >
+				<Buch >
+					<Titel >
+						The XML Handbook
+					</Titel>
+					<Autor >
+						Charles F. Goldfarb, Paul Prescod
+					</Autor>
+					<Autor >
+						Chuck White, Ann Navarro, Linda Burman
+					</Autor>
+					<Verlag >
+						John Wiley 
+						&amp;
+						 Sons
+					</Verlag>
+					<Erscheinungsdatum >
+						August, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						82.83
+					</Preis>
+					<Seiten >
+						431
+					</Seiten>
+					<ISBN >
+						0-136-81511-1
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+		</Rechnungsposten>
+	</Rechnung>
+	<Rechnung >
+		<Rechnungsposten >
+			<Posten nr="1" >
+				<Buch >
+					<Titel >
+						Client/Server Data Access With Java and XML
+					</Titel>
+					<Autor >
+						Alex Homer
+					</Autor>
+					<Verlag >
+						Microsoft Press
+					</Verlag>
+					<Erscheinungsdatum >
+						Oktober, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						18.65
+					</Preis>
+					<Seiten >
+						650
+					</Seiten>
+					<ISBN >
+						1-558-60622-X
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="2" >
+				<Buch >
+					<Titel >
+						Web Developer.Com Guide to Creating Web Channels With Dynamic Html and CDF : With Dynamic HTML, XML, and CDF
+					</Titel>
+					<Autor >
+						Mariva H. Aviram
+					</Autor>
+					<Verlag >
+						Kluwer Academic Press
+					</Verlag>
+					<Erscheinungsdatum >
+						Juni, 1997
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						63.52
+					</Preis>
+					<Seiten >
+						739
+					</Seiten>
+					<ISBN >
+						0-471-25168-2
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="3" >
+				<Buch >
+					<Titel >
+						Teach Yourself XML in 21 Days
+					</Titel>
+					<Autor >
+						Simon North, Paul Hermans
+					</Autor>
+					<Autor >
+						Neil Bradley
+					</Autor>
+					<Verlag >
+						Kluwer Academic Press
+					</Verlag>
+					<Erscheinungsdatum >
+						Mai, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						98.63
+					</Preis>
+					<Seiten >
+						236
+					</Seiten>
+					<ISBN >
+						1-558-60516-9
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="4" >
+				<Buch >
+					<Titel >
+						Structuring XML Documents
+					</Titel>
+					<Autor >
+						Bryan Pfaffenberger
+					</Autor>
+					<Autor >
+						Charles F. Goldfarb, Steve Pepper, Chet Ensign
+					</Autor>
+					<Verlag >
+						Eyrolles
+					</Verlag>
+					<Erscheinungsdatum >
+						Oktober, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						96.45
+					</Preis>
+					<Seiten >
+						562
+					</Seiten>
+					<ISBN >
+						0-764-53310-X
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="5" >
+				<Buch >
+					<Titel >
+						XML: The Annotated Specifications
+					</Titel>
+					<Autor >
+						William J. Pardi
+					</Autor>
+					<Verlag >
+						Wordware Publishing
+					</Verlag>
+					<Erscheinungsdatum >
+						August, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						71.11
+					</Preis>
+					<Seiten >
+						449
+					</Seiten>
+					<ISBN >
+						0-136-81511-1
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="6" >
+				<Buch >
+					<Titel >
+						XML Elements of Style
+					</Titel>
+					<Autor >
+						Paul Spencer
+					</Autor>
+					<Verlag >
+						Academic Press/Morgan Kaufmann
+					</Verlag>
+					<Erscheinungsdatum >
+						April, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						21.85
+					</Preis>
+					<Seiten >
+						151
+					</Seiten>
+					<ISBN >
+						0-136-81511-1
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="7" >
+				<Buch >
+					<Titel >
+						XML Elements of Style
+					</Titel>
+					<Autor >
+						Sean McGrath
+					</Autor>
+					<Autor >
+						Richard Light
+					</Autor>
+					<Verlag >
+						IDG
+					</Verlag>
+					<Erscheinungsdatum >
+						Jaenner, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						64.78
+					</Preis>
+					<Seiten >
+						689
+					</Seiten>
+					<ISBN >
+						 6-723-16013-3
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="8" >
+				<Buch >
+					<Titel >
+						XML in Plain English
+					</Titel>
+					<Autor >
+						George M. Doss
+					</Autor>
+					<Verlag >
+						Academic Press
+					</Verlag>
+					<Erscheinungsdatum >
+						Oktober, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Dollar" >
+						22.93
+					</Preis>
+					<Seiten >
+						188
+					</Seiten>
+					<ISBN >
+						0-201-43311-7
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="9" >
+				<Buch >
+					<Titel >
+						XML Specification Guide
+					</Titel>
+					<Autor >
+						Charles F. Goldfarb, Sean McGrath, John Simpson
+					</Autor>
+					<Verlag >
+						Addison-Wesley
+					</Verlag>
+					<Erscheinungsdatum >
+						Februar, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						69.79
+					</Preis>
+					<Seiten >
+						528
+					</Seiten>
+					<ISBN >
+						0-071-34621-
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+		</Rechnungsposten>
+	</Rechnung>
+	<Rechnung >
+		<Rechnungsposten >
+			<Posten nr="1" >
+				<Buch >
+					<Titel >
+						The XML Handbook - 2nd Edition
+					</Titel>
+					<Autor >
+						Charles F. Goldfarb, Paul Prescod
+					</Autor>
+					<Autor >
+						Robert Eckstein
+					</Autor>
+					<Verlag >
+						O'Reilly 
+						&amp;
+						 Associates
+					</Verlag>
+					<Erscheinungsdatum >
+						Mai, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						29.34
+					</Preis>
+					<Seiten >
+						61
+					</Seiten>
+					<ISBN >
+						 6-723-16013-3
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="2" >
+				<Buch >
+					<Titel >
+						Presenting XML
+					</Titel>
+					<Autor >
+						Peter Flynn
+					</Autor>
+					<Verlag >
+						Academic Press
+					</Verlag>
+					<Erscheinungsdatum >
+						Juni, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						30.10
+					</Preis>
+					<Seiten >
+						249
+					</Seiten>
+					<ISBN >
+						0-764-53310-X
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="3" >
+				<Buch >
+					<Titel >
+						The XML Companion
+					</Titel>
+					<Autor >
+						Robert Ducharme
+					</Autor>
+					<Verlag >
+						Kluwer Academic Publishing
+					</Verlag>
+					<Erscheinungsdatum >
+						Juli, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						35.98
+					</Preis>
+					<Seiten >
+						585
+					</Seiten>
+					<ISBN >
+						0-764-57006-4
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="4" >
+				<Buch >
+					<Titel >
+						XML in IE5 Programmer's Reference
+					</Titel>
+					<Autor >
+						Norman E. Smith
+					</Autor>
+					<Autor >
+						Simon St.Laurent
+					</Autor>
+					<Verlag >
+						Academic Press
+					</Verlag>
+					<Erscheinungsdatum >
+						Oktober, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						14.57
+					</Preis>
+					<Seiten >
+						705
+					</Seiten>
+					<ISBN >
+						0-130-82676-6
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="5" >
+				<Buch >
+					<Titel >
+						Building Web Sites with XML
+					</Titel>
+					<Autor >
+						Chuck White, Ann Navarro, Linda Burman
+					</Autor>
+					<Verlag >
+						IDG Books
+					</Verlag>
+					<Erscheinungsdatum >
+						September, 1997
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						13.53
+					</Preis>
+					<Seiten >
+						430
+					</Seiten>
+					<ISBN >
+						0-764-53236-7
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="6" >
+				<Buch >
+					<Titel >
+						Pure XML
+					</Titel>
+					<Autor >
+						David Megginson
+					</Autor>
+					<Autor >
+						Serge Abiteboul, Peter Buneman, Dan Suciu
+					</Autor>
+					<Verlag >
+						Academic Press
+					</Verlag>
+					<Erscheinungsdatum >
+						Juli, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						32.55
+					</Preis>
+					<Seiten >
+						323
+					</Seiten>
+					<ISBN >
+						 0-471-32753-0
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="7" >
+				<Buch >
+					<Titel >
+						XML: A Primer, 2nd edition
+					</Titel>
+					<Autor >
+						Ed Tittle, James Michael Stewart, Ramesh Chandak
+					</Autor>
+					<Verlag >
+						Academic Press/Morgan Kaufmann
+					</Verlag>
+					<Erscheinungsdatum >
+						Februar, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						59.82
+					</Preis>
+					<Seiten >
+						437
+					</Seiten>
+					<ISBN >
+						2-212-09052-8
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+		</Rechnungsposten>
+	</Rechnung>
+	<Rechnung >
+		<Rechnungsposten >
+			<Posten nr="1" >
+				<Buch >
+					<Titel >
+						Pure XML
+					</Titel>
+					<Autor >
+						John Simpson
+					</Autor>
+					<Autor >
+						Simon St.Laurent
+					</Autor>
+					<Verlag >
+						McGraw-Hill
+					</Verlag>
+					<Erscheinungsdatum >
+						November, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Dollar" >
+						68.70
+					</Preis>
+					<Seiten >
+						269
+					</Seiten>
+					<ISBN >
+						0-764-53199-9
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+		</Rechnungsposten>
+	</Rechnung>
+	<Rechnung >
+		<Rechnungsposten >
+			<Posten nr="1" >
+				<Buch >
+					<Titel >
+						Structuring XML Documents
+					</Titel>
+					<Autor >
+						Jon Duckett, Mark Birbeck, Michael Kay, Stephen F. Mohr, Didier Martin, Steven Livingston
+					</Autor>
+					<Autor >
+						Mark Watson
+					</Autor>
+					<Verlag >
+						McGraw-Hill
+					</Verlag>
+					<Erscheinungsdatum >
+						Juli, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						50.63
+					</Preis>
+					<Seiten >
+						524
+					</Seiten>
+					<ISBN >
+						0-764-50383-9
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="2" >
+				<Buch >
+					<Titel >
+						Mastering XML
+					</Titel>
+					<Autor >
+						Simon St.Laurent
+					</Autor>
+					<Verlag >
+						Morgan Kaufman
+					</Verlag>
+					<Erscheinungsdatum >
+						Juli, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						71.17
+					</Preis>
+					<Seiten >
+						551
+					</Seiten>
+					<ISBN >
+						1-558-60622-X
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="3" >
+				<Buch >
+					<Titel >
+						XML Complete
+					</Titel>
+					<Autor >
+						Mark Watson
+					</Autor>
+					<Autor >
+						Ed Tittle, James Michael Stewart, Ramesh Chandak
+					</Autor>
+					<Verlag >
+						Kluwer Academic Publishing
+					</Verlag>
+					<Erscheinungsdatum >
+						Jaenner, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						39.88
+					</Preis>
+					<Seiten >
+						403
+					</Seiten>
+					<ISBN >
+						0-072-12220-X
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="4" >
+				<Buch >
+					<Titel >
+						The XML Bible
+					</Titel>
+					<Autor >
+						Lee Purcell
+					</Autor>
+					<Autor >
+						Ed Tittle, James Michael Stewart, Ramesh Chandak
+					</Autor>
+					<Verlag >
+						McGraw-Hill
+					</Verlag>
+					<Erscheinungsdatum >
+						November, 1997
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						67.87
+					</Preis>
+					<Seiten >
+						323
+					</Seiten>
+					<ISBN >
+						1-558-60516-9
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="5" >
+				<Buch >
+					<Titel >
+						Inside XML DTDs: Scientific and Technical
+					</Titel>
+					<Autor >
+						John Simpson
+					</Autor>
+					<Verlag >
+						Sybex
+					</Verlag>
+					<Erscheinungsdatum >
+						Maerz, 199
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						42.36
+					</Preis>
+					<Seiten >
+						291
+					</Seiten>
+					<ISBN >
+						0-130-81152-1
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="6" >
+				<Buch >
+					<Titel >
+						Building XML Applications
+					</Titel>
+					<Autor >
+						Michael Leventhal, David Lewis, Matthew Fuchs
+					</Autor>
+					<Autor >
+						Simon St. Laurent
+					</Autor>
+					<Verlag >
+						Academic Press
+					</Verlag>
+					<Erscheinungsdatum >
+						Juli, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						10.79
+					</Preis>
+					<Seiten >
+						322
+					</Seiten>
+					<ISBN >
+						0-136-16822-1
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="7" >
+				<Buch >
+					<Titel >
+						The XML Handbook - 2nd Edition
+					</Titel>
+					<Autor >
+						Elliotte Rusty Harold
+					</Autor>
+					<Autor >
+						Alex Homer
+					</Autor>
+					<Verlag >
+						Sams
+					</Verlag>
+					<Erscheinungsdatum >
+						November, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						52.72
+					</Preis>
+					<Seiten >
+						356
+					</Seiten>
+					<ISBN >
+						0-130-20354-8
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="8" >
+				<Buch >
+					<Titel >
+						XML Design and Implementation
+					</Titel>
+					<Autor >
+						Norman E. Smith
+					</Autor>
+					<Autor >
+						Michael Floyd
+					</Autor>
+					<Verlag >
+						O'Reilly 
+						&amp;
+						 Associates
+					</Verlag>
+					<Erscheinungsdatum >
+						August, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						95.54
+					</Preis>
+					<Seiten >
+						582
+					</Seiten>
+					<ISBN >
+						2-212-09052-8
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="9" >
+				<Buch >
+					<Titel >
+						Mastering XML
+					</Titel>
+					<Autor >
+						Chuck White, Ann Navarro, Linda Burman
+					</Autor>
+					<Verlag >
+						Academic Press/Morgan Kaufmann
+					</Verlag>
+					<Erscheinungsdatum >
+						Mai, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Dollar" >
+						93.90
+					</Preis>
+					<Seiten >
+						200
+					</Seiten>
+					<ISBN >
+						0-201-43335-4
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="10" >
+				<Buch >
+					<Titel >
+						XML in Record Time
+					</Titel>
+					<Autor >
+						Michael Floyd
+					</Autor>
+					<Autor >
+						Robert Ducharme
+					</Autor>
+					<Verlag >
+						Kluwer Academic Publishing
+					</Verlag>
+					<Erscheinungsdatum >
+						Juni, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						75.72
+					</Preis>
+					<Seiten >
+						669
+					</Seiten>
+					<ISBN >
+						0-764-57006-4
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="11" >
+				<Buch >
+					<Titel >
+						XML: The Annotated Specifications
+					</Titel>
+					<Autor >
+						Steven Holzner
+					</Autor>
+					<Autor >
+						Simon St. Laurent, Ethan Cerami
+					</Autor>
+					<Verlag >
+						Wrox
+					</Verlag>
+					<Erscheinungsdatum >
+						Juni, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						42.61
+					</Preis>
+					<Seiten >
+						697
+					</Seiten>
+					<ISBN >
+						0-764-53199-9
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="12" >
+				<Buch >
+					<Titel >
+						Client/Server Data Access With Java and XML
+					</Titel>
+					<Autor >
+						Mariva H. Aviram
+					</Autor>
+					<Verlag >
+						Eyrolles
+					</Verlag>
+					<Erscheinungsdatum >
+						August, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Dollar" >
+						33.89
+					</Preis>
+					<Seiten >
+						76
+					</Seiten>
+					<ISBN >
+						1-861-00152-5
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="13" >
+				<Buch >
+					<Titel >
+						XML in Action
+					</Titel>
+					<Autor >
+						Simon St.Laurent
+					</Autor>
+					<Autor >
+						Michael Leventhal, David Lewis, Matthew Fuchs
+					</Autor>
+					<Verlag >
+						Prentice Hall
+					</Verlag>
+					<Erscheinungsdatum >
+						Juni, 1997
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						34.40
+					</Preis>
+					<Seiten >
+						291
+					</Seiten>
+					<ISBN >
+						 6-723-16013-3
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="14" >
+				<Buch >
+					<Titel >
+						XML: The Annotated Specifications
+					</Titel>
+					<Autor >
+						Steven Holzner
+					</Autor>
+					<Verlag >
+						McGraw-Hill
+					</Verlag>
+					<Erscheinungsdatum >
+						April, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						17.78
+					</Preis>
+					<Seiten >
+						620
+					</Seiten>
+					<ISBN >
+						1-556-22587-3
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+		</Rechnungsposten>
+	</Rechnung>
+	<Rechnung >
+		<Rechnungsposten >
+			<Posten nr="1" >
+				<Buch >
+					<Titel >
+						Professional Stylesheets for HTML and XML
+					</Titel>
+					<Autor >
+						Neil Bradley
+					</Autor>
+					<Autor >
+						David Megginson
+					</Autor>
+					<Verlag >
+						Addison-Wesley
+					</Verlag>
+					<Erscheinungsdatum >
+						Jaenner, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						43.87
+					</Preis>
+					<Seiten >
+						203
+					</Seiten>
+					<ISBN >
+						0-130-86601-6
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+		</Rechnungsposten>
+	</Rechnung>
+	<Rechnung >
+		<Rechnungsposten >
+			<Posten nr="1" >
+				<Buch >
+					<Titel >
+						XML Elements of Style
+					</Titel>
+					<Autor >
+						James Britt, Teun Duynstee, Dan Denault, Ash Rofail, John Messing, Kevin Lundy
+					</Autor>
+					<Autor >
+						Lee Purcell
+					</Autor>
+					<Verlag >
+						Coriolis
+					</Verlag>
+					<Erscheinungsdatum >
+						April, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						90.26
+					</Preis>
+					<Seiten >
+						127
+					</Seiten>
+					<ISBN >
+						0-764-50360-X
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="2" >
+				<Buch >
+					<Titel >
+						The XML Handbook
+					</Titel>
+					<Autor >
+						Liam Quin, Ian S. Graham
+					</Autor>
+					<Autor >
+						Frank Boumphrey, Olivia di Renzo, Jon Duckett, Joe Graf, Paul Houle
+					</Autor>
+					<Verlag >
+						Que
+					</Verlag>
+					<Erscheinungsdatum >
+						August, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						65.80
+					</Preis>
+					<Seiten >
+						635
+					</Seiten>
+					<ISBN >
+						0-079-13705-9
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="3" >
+				<Buch >
+					<Titel >
+						The XML Handbook
+					</Titel>
+					<Autor >
+						Simon St. Laurent
+					</Autor>
+					<Verlag >
+						Wordware Publishing
+					</Verlag>
+					<Erscheinungsdatum >
+						Oktober, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						65.44
+					</Preis>
+					<Seiten >
+						140
+					</Seiten>
+					<ISBN >
+						0-471-25168-2
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="4" >
+				<Buch >
+					<Titel >
+						The SGML FAQ Book: Understanding the Foundation of HTML and XML
+					</Titel>
+					<Autor >
+						Kevin Dick
+					</Autor>
+					<Autor >
+						William J. Pardi
+					</Autor>
+					<Verlag >
+						Prentice Hall Computer Books
+					</Verlag>
+					<Erscheinungsdatum >
+						November, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						66.64
+					</Preis>
+					<Seiten >
+						202
+					</Seiten>
+					<ISBN >
+						1-861-00228-9
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="5" >
+				<Buch >
+					<Titel >
+						Professional XML Applications
+					</Titel>
+					<Autor >
+						Simon St.Laurent
+					</Autor>
+					<Autor >
+						Norman E. Smith
+					</Autor>
+					<Verlag >
+						Academic Press/Morgan Kaufmann
+					</Verlag>
+					<Erscheinungsdatum >
+						Oktober, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						99.51
+					</Preis>
+					<Seiten >
+						725
+					</Seiten>
+					<ISBN >
+						0-764-50360-X
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="6" >
+				<Buch >
+					<Titel >
+						XML in Action
+					</Titel>
+					<Autor >
+						Mariva H. Aviram
+					</Autor>
+					<Verlag >
+						Morgan Kaufman
+					</Verlag>
+					<Erscheinungsdatum >
+						November, 1997
+					</Erscheinungsdatum>
+					<Preis waehrung="Dollar" >
+						56.83
+					</Preis>
+					<Seiten >
+						481
+					</Seiten>
+					<ISBN >
+						1-576-10284-X
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="7" >
+				<Buch >
+					<Titel >
+						XML: Extensible Markup Language
+					</Titel>
+					<Autor >
+						Simon St. Laurent, Ethan Cerami
+					</Autor>
+					<Verlag >
+						Prentice Hall
+					</Verlag>
+					<Erscheinungsdatum >
+						Juli, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						27.30
+					</Preis>
+					<Seiten >
+						244
+					</Seiten>
+					<ISBN >
+						2-212-09052-8
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="8" >
+				<Buch >
+					<Titel >
+						XML in Plain English
+					</Titel>
+					<Autor >
+						Michel Gossens, Sebastian Rahtz
+					</Autor>
+					<Verlag >
+						Addison-Wesley
+					</Verlag>
+					<Erscheinungsdatum >
+						Dezember, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						59.86
+					</Preis>
+					<Seiten >
+						74
+					</Seiten>
+					<ISBN >
+						0-201-34285-5
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="9" >
+				<Buch >
+					<Titel >
+						XML Design and Implementation
+					</Titel>
+					<Autor >
+						John Simpson
+					</Autor>
+					<Autor >
+						Simon St. Laurent
+					</Autor>
+					<Verlag >
+						Prentice Hall
+					</Verlag>
+					<Erscheinungsdatum >
+						April, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						49.88
+					</Preis>
+					<Seiten >
+						279
+					</Seiten>
+					<ISBN >
+						1-861-00311-0
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="10" >
+				<Buch >
+					<Titel >
+						XML, langage et applications
+					</Titel>
+					<Autor >
+						Frank Boumphrey, Olivia di Renzo, Jon Duckett, Joe Graf, Paul Houle
+					</Autor>
+					<Autor >
+						Alain Michard
+					</Autor>
+					<Verlag >
+						O'Reilly 
+						&amp;
+						 Associates
+					</Verlag>
+					<Erscheinungsdatum >
+						April, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						56.33
+					</Preis>
+					<Seiten >
+						584
+					</Seiten>
+					<ISBN >
+						1-556-22587-3
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="11" >
+				<Buch >
+					<Titel >
+						Understanding SGML and XML Tools: Practical Programs for Handling Structured Text 
+					</Titel>
+					<Autor >
+						Bryan Pfaffenberger
+					</Autor>
+					<Erscheinungsdatum >
+						Juli, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						44.75
+					</Preis>
+					<Seiten >
+						107
+					</Seiten>
+					<ISBN >
+						0-201-34285-5
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+		</Rechnungsposten>
+	</Rechnung>
+	<Rechnung >
+		<Rechnungsposten >
+			<Posten nr="1" >
+				<Buch >
+					<Titel >
+						The XML Handbook
+					</Titel>
+					<Autor >
+						Dan Chang, Dan Harkey
+					</Autor>
+					<Autor >
+						Alain Michard
+					</Autor>
+					<Verlag >
+						O'Reilly 
+						&amp;
+						 Associates
+					</Verlag>
+					<Erscheinungsdatum >
+						Juni, 1997
+					</Erscheinungsdatum>
+					<Preis waehrung="Dollar" >
+						12.55
+					</Preis>
+					<Seiten >
+						493
+					</Seiten>
+					<ISBN >
+						0-471-25168-2
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="2" >
+				<Buch >
+					<Titel >
+						The XML Handbook - 2nd Edition
+					</Titel>
+					<Autor >
+						Kevin Dick
+					</Autor>
+					<Verlag >
+						Academic Press
+					</Verlag>
+					<Erscheinungsdatum >
+						August, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						82.67
+					</Preis>
+					<Seiten >
+						497
+					</Seiten>
+					<ISBN >
+						1-861-00152-5
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+		</Rechnungsposten>
+	</Rechnung>
+	<Rechnung >
+		<Rechnungsposten >
+			<Posten nr="1" >
+				<Buch >
+					<Titel >
+						XML: Principles, Tools, and Techniques
+					</Titel>
+					<Autor >
+						Norman E. Smith
+					</Autor>
+					<Verlag >
+						Addison-Wesley
+					</Verlag>
+					<Erscheinungsdatum >
+						August, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						54.92
+					</Preis>
+					<Seiten >
+						239
+					</Seiten>
+					<ISBN >
+						0-130-82676-6
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+		</Rechnungsposten>
+	</Rechnung>
+	<Rechnung >
+		<Rechnungsposten >
+			<Posten nr="1" >
+				<Buch >
+					<Titel >
+						XML, langage et applications
+					</Titel>
+					<Autor >
+						Michael Leventhal, David Lewis, Matthew Fuchs
+					</Autor>
+					<Autor >
+						Alex Homer
+					</Autor>
+					<Verlag >
+						Prentice Hall
+					</Verlag>
+					<Erscheinungsdatum >
+						Dezember, 1997
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						76.89
+					</Preis>
+					<Seiten >
+						341
+					</Seiten>
+					<ISBN >
+						0-130-14714-1
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="2" >
+				<Buch >
+					<Titel >
+						Platinum Edition Using HTML 4, XML and Java 1.2
+					</Titel>
+					<Autor >
+						Norman E. Smith
+					</Autor>
+					<Autor >
+						Charles F. Goldfarb, Steve Pepper, Chet Ensign
+					</Autor>
+					<Verlag >
+						John Wiley 
+						&amp;
+						 Sons
+					</Verlag>
+					<Erscheinungsdatum >
+						November, 1997
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						81.38
+					</Preis>
+					<Seiten >
+						451
+					</Seiten>
+					<ISBN >
+						1-565-92709-5
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="3" >
+				<Buch >
+					<Titel >
+						Web Publishing With XML in Six Easy Steps
+					</Titel>
+					<Autor >
+						Frank Boumphrey
+					</Autor>
+					<Autor >
+						Rick Jelliffe
+					</Autor>
+					<Verlag >
+						Sams
+					</Verlag>
+					<Erscheinungsdatum >
+						Maerz, 2000
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						81.79
+					</Preis>
+					<Seiten >
+						216
+					</Seiten>
+					<ISBN >
+						 6-723-16013-3
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="4" >
+				<Buch >
+					<Titel >
+						Data on the Web : From Relations to Semistructured Data and XML
+					</Titel>
+					<Autor >
+						Robert Ducharme
+					</Autor>
+					<Verlag >
+						Academic Press/Morgan Kaufmann
+					</Verlag>
+					<Erscheinungsdatum >
+						Maerz, 2000
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						46.95
+					</Preis>
+					<Seiten >
+						396
+					</Seiten>
+					<ISBN >
+						0-764-53199-9
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="5" >
+				<Buch >
+					<Titel >
+						XML: A Primer, 2nd edition
+					</Titel>
+					<Autor >
+						Simon St. Laurent
+					</Autor>
+					<Verlag >
+						Prentice Hall
+					</Verlag>
+					<Erscheinungsdatum >
+						Juli, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						77.91
+					</Preis>
+					<Seiten >
+						658
+					</Seiten>
+					<ISBN >
+						 6-723-16013-3
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="6" >
+				<Buch >
+					<Titel >
+						The XML and SGML Cookbook
+					</Titel>
+					<Autor >
+						Peter Flynn
+					</Autor>
+					<Erscheinungsdatum >
+						Juni, 1997
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						73.10
+					</Preis>
+					<Seiten >
+						165
+					</Seiten>
+					<ISBN >
+						1-861-00152-5
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="7" >
+				<Buch >
+					<Titel >
+						XML: A Primer, 2nd edition
+					</Titel>
+					<Autor >
+						Peter Flynn
+					</Autor>
+					<Verlag >
+						Eyrolles
+					</Verlag>
+					<Erscheinungsdatum >
+						Dezember, 1997
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						41.86
+					</Preis>
+					<Seiten >
+						562
+					</Seiten>
+					<ISBN >
+						0-079-13705-9
+					</ISBN>
+					<Empfehlung >
+						Browse It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="8" >
+				<Buch >
+					<Titel >
+						Professional Stylesheets for HTML and XML
+					</Titel>
+					<Autor >
+						Frank Boumphrey, Olivia di Renzo, Jon Duckett, Joe Graf, Paul Houle
+					</Autor>
+					<Autor >
+						Mariva H. Aviram
+					</Autor>
+					<Verlag >
+						O'Reilly 
+						&amp;
+						 Associates
+					</Verlag>
+					<Erscheinungsdatum >
+						November, 1997
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						75.59
+					</Preis>
+					<Seiten >
+						326
+					</Seiten>
+					<ISBN >
+						0-130-86601-6
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="9" >
+				<Buch >
+					<Titel >
+						Building XML Applications
+					</Titel>
+					<Autor >
+						Kevin Dick
+					</Autor>
+					<Verlag >
+						Wordware Publishing
+					</Verlag>
+					<Erscheinungsdatum >
+						August, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						96.14
+					</Preis>
+					<Seiten >
+						439
+					</Seiten>
+					<ISBN >
+						0-764-53199-9
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="10" >
+				<Buch >
+					<Titel >
+						XML: A Manager's Guide
+					</Titel>
+					<Autor >
+						Charles F. Goldfarb, Steve Pepper, Chet Ensign
+					</Autor>
+					<Autor >
+						Simon St. Laurent, Ethan Cerami
+					</Autor>
+					<Verlag >
+						McGraw-Hill
+					</Verlag>
+					<Erscheinungsdatum >
+						Mai, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						17.21
+					</Preis>
+					<Seiten >
+						535
+					</Seiten>
+					<ISBN >
+						1-861-00311-0
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="11" >
+				<Buch >
+					<Titel >
+						XML Black Book
+					</Titel>
+					<Autor >
+						Simon North, Paul Hermans
+					</Autor>
+					<Autor >
+						Jon Duckett, Mark Birbeck, Michael Kay, Stephen F. Mohr, Didier Martin, Steven Livingston
+					</Autor>
+					<Verlag >
+						Microsoft Press
+					</Verlag>
+					<Erscheinungsdatum >
+						Juni, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						40.58
+					</Preis>
+					<Seiten >
+						174
+					</Seiten>
+					<ISBN >
+						0-789-71759-X
+					</ISBN>
+					<Empfehlung >
+						Recycle It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="12" >
+				<Buch >
+					<Titel >
+						The XML Companion
+					</Titel>
+					<Autor >
+						Steven J. Derose
+					</Autor>
+					<Autor >
+						Steven Holzner
+					</Autor>
+					<Verlag >
+						Wrox
+					</Verlag>
+					<Erscheinungsdatum >
+						November, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						39.22
+					</Preis>
+					<Seiten >
+						262
+					</Seiten>
+					<ISBN >
+						0-130-82676-6
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="13" >
+				<Buch >
+					<Titel >
+						XML for Dummies Quick Reference
+					</Titel>
+					<Autor >
+						Simon North, Paul Hermans
+					</Autor>
+					<Erscheinungsdatum >
+						November, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						23.18
+					</Preis>
+					<Seiten >
+						424
+					</Seiten>
+					<ISBN >
+						0-130-20354-8
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="14" >
+				<Buch >
+					<Titel >
+						Structuring XML Documents
+					</Titel>
+					<Autor >
+						Robert Eckstein
+					</Autor>
+					<Verlag >
+						DG Books Worldwide
+					</Verlag>
+					<Erscheinungsdatum >
+						September, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Dollar" >
+						18.80
+					</Preis>
+					<Seiten >
+						61
+					</Seiten>
+					<ISBN >
+						1-565-92709-5
+					</ISBN>
+					<Empfehlung >
+						Order from amazon
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="15" >
+				<Buch >
+					<Titel >
+						XML in Action
+					</Titel>
+					<Autor >
+						Lee Purcell
+					</Autor>
+					<Autor >
+						Lee Purcell
+					</Autor>
+					<Verlag >
+						Addison-Wesley
+					</Verlag>
+					<Erscheinungsdatum >
+						August, 1999
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						72.80
+					</Preis>
+					<Seiten >
+						283
+					</Seiten>
+					<ISBN >
+						0-136-81511-1
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+			<Posten nr="16" >
+				<Buch >
+					<Titel >
+						Web Developer.Com Guide to Creating Web Channels With Dynamic Html and CDF : With Dynamic HTML, XML, and CDF
+					</Titel>
+					<Autor >
+						Serge Abiteboul, Peter Buneman, Dan Suciu
+					</Autor>
+					<Verlag >
+						Sams
+					</Verlag>
+					<Erscheinungsdatum >
+						April, 1998
+					</Erscheinungsdatum>
+					<Preis waehrung="Euro" >
+						50.43
+					</Preis>
+					<Seiten >
+						627
+					</Seiten>
+					<ISBN >
+						0-789-71759-X
+					</ISBN>
+					<Empfehlung >
+						Buy It
+					</Empfehlung>
+				</Buch>
+			</Posten>
+		</Rechnungsposten>
+	</Rechnung>
+<Statistik>
+<leereElemente>4</leereElemente>
+</Statistik></Rechnungen>
