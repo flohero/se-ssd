@@ -7,6 +7,7 @@ import org.xml.sax.helpers.DefaultHandler;
 import java.io.PrintWriter;
 
 public class BookHandler extends DefaultHandler {
+    private static final float DOLLAR_TO_EURO = 1.10f;
     PrintWriter writer;
     StringBuilder blanks = new StringBuilder();
     StringBuilder allElements = new StringBuilder();
@@ -15,7 +16,7 @@ public class BookHandler extends DefaultHandler {
     boolean currentIsEmpty = true;
     int oldLength;
     int emptyElements = 0;
-    long startTime = 0;
+    boolean currentIsDollar = false;
 
     public BookHandler(PrintWriter writer) {
         this.writer = writer;
@@ -23,7 +24,8 @@ public class BookHandler extends DefaultHandler {
 
     @Override
     public void startDocument() throws SAXException {
-        startTime = System.currentTimeMillis();
+        EasyProfiler.StartTimeProfiling();
+        EasyProfiler.StartMemoryProfiling();
     }
 
     @Override
@@ -31,8 +33,10 @@ public class BookHandler extends DefaultHandler {
         writer.write(allElements.toString());
         writer.flush();
         writer.close();
-        long endTime = System.currentTimeMillis();
-        System.out.println("Duration: " + (endTime - startTime) + "ms");
+        EasyProfiler.StopTimeProfiling();
+        EasyProfiler.StopMemoryProfiling();
+        System.out.println("Duration: " + EasyProfiler.Difference() + "ms");
+        System.out.println("Memory Usage: " + EasyProfiler.MemoryUsageInMB() + "mb");
     }
 
     @Override
@@ -41,10 +45,18 @@ public class BookHandler extends DefaultHandler {
         currentIsEmpty = true;
         StringBuilder attributeBuilder = new StringBuilder();
         currentIsEmpty = attributes.getLength() == 0;
+        currentIsDollar = false;
         for (int i = 0; i < attributes.getLength(); i++) {
+            String value = attributes.getValue(i);
+            if (qName.equals("Preis")
+                    && attributes.getQName(i).equals("waehrung")
+                    && value.equals("Dollar")) {
+                currentIsDollar = true;
+                value = "Euro";
+            }
             attributeBuilder.append(attributes.getQName(i))
                     .append("=\"")
-                    .append(attributes.getValue(i))
+                    .append(value)
                     .append("\"")
                     .append(" ");
         }
@@ -69,6 +81,10 @@ public class BookHandler extends DefaultHandler {
         String c = new String(ch, start, length);
         if (currentTag.equals("ISBN") && c.startsWith("ISBN:")) {
             c = c.replace("ISBN:", "");
+        }
+        if (currentTag.equals("Preis")) {
+            float price = Float.parseFloat(c);
+            c = String.valueOf(price / DOLLAR_TO_EURO);
         }
         allElements
                 .append(blanks)

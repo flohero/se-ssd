@@ -1,0 +1,91 @@
+= Übung 04
+:author: Florian Weingartshofer
+:email: <S1910307103@students.fh-hagenberg.at>
+:reproducible:
+:listing-caption: Listing
+:source-highlighter: rouge
+:stem:
+:src: ../src/main
+:java: {src}/java/sax
+:xml: {src}/resources
+
+== Entlassungsbrief
+
+.Entlassungsbrief.java
+[source,java]
+----
+include::{java}/Entlassungsbrief.java[]
+----
+
+.EntlassungsbriefHandler.java
+[source,java]
+----
+include::{java}/EntlassungsbriefHandler.java[]
+----
+
+.Output
+[source]
+----
+Sehr geehrte Frau Prof. Dr. Petronella Petunia BSc MSc
+Es liegen folgende Diagnosen vor:Meniskus: Empyema gen. sin. post corpus alienum ligneum operat. (bis 2021-02-11)
+Multiple Sklerose mit schubf. Verlauf
+----
+
+== Book
+
+.books.dtd
+[source,dtd]
+----
+include::{xml}/books.dtd[]
+----
+
+.Book.java
+[source,java]
+----
+include::{java}/Book.java[]
+----
+
+.BookHandler.java
+[source,java]
+----
+include::{java}/BookHandler.java[]
+----
+
+Es wurden fünf Files erstellt mit 2, 10, 100, 1000 und 10000 Einträgen.
+
+Hier der Output des Programms, die generierten XML Files befinden sich unter `src/main/resources`.
+
+.Output für 2 Einträge
+[source]
+----
+Duration: 27ms
+Memory Usage: 0mb
+----
+
+.Output für 10 Einträge
+[source]
+----
+Duration: 29ms
+Memory Usage: 0mb
+----
+
+.Output für 100 Einträge
+[source]
+----
+Duration: 61ms
+Memory Usage: 0mb
+----
+
+.Output für 1000 Einträge
+[source]
+----
+Duration: 136ms
+Memory Usage: 5mb
+----
+
+.Output für 10000 Einträge
+[source]
+----
+Duration: 571ms
+Memory Usage: 26mb
+----

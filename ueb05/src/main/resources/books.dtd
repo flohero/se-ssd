@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT Rechnungen (Rechnung+)>
+<!ELEMENT Rechnungen (Rechnung+,Statistik)>
 <!ELEMENT Rechnung (Rechnungsposten+)>
 <!ELEMENT Rechnungsposten (Posten+)>
 <!ELEMENT Posten (Buch)>
@@ -18,3 +18,5 @@
 <!ATTLIST Preis
 	waehrung CDATA #REQUIRED
 	>
+<!ELEMENT Statistik (leereElemente)>
+<!ELEMENT leereElemente (#PCDATA)>

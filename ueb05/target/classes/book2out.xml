@@ -15,8 +15,8 @@
 					<Erscheinungsdatum >
 						September, 1998
 					</Erscheinungsdatum>
-					<Preis waehrung="Dollar" >
-						17.89
+					<Preis waehrung="Euro" >
+						16.263636
 					</Preis>
 					<Seiten >
 						754
@@ -44,7 +44,7 @@
 						August, 1998
 					</Erscheinungsdatum>
 					<Preis waehrung="Euro" >
-						28.26
+						25.690908
 					</Preis>
 					<Seiten >
 						559
@@ -72,7 +72,7 @@
 						Juni, 1997
 					</Erscheinungsdatum>
 					<Preis waehrung="Euro" >
-						77.67
+						70.609085
 					</Preis>
 					<Seiten >
 						690
@@ -103,8 +103,8 @@
 					<Erscheinungsdatum >
 						August, 1998
 					</Erscheinungsdatum>
-					<Preis waehrung="Dollar" >
-						52.91
+					<Preis waehrung="Euro" >
+						48.1
 					</Preis>
 					<Seiten >
 						594
@@ -134,8 +134,8 @@
 					<Erscheinungsdatum >
 						Juni, 1999
 					</Erscheinungsdatum>
-					<Preis waehrung="Dollar" >
-						58.90
+					<Preis waehrung="Euro" >
+						53.545456
 					</Preis>
 					<Seiten >
 						230
@@ -168,7 +168,7 @@
 						Dezember, 1997
 					</Erscheinungsdatum>
 					<Preis waehrung="Euro" >
-						44.85
+						40.772724
 					</Preis>
 					<Seiten >
 						751
@@ -200,8 +200,8 @@
 					<Erscheinungsdatum >
 						Oktober, 1999
 					</Erscheinungsdatum>
-					<Preis waehrung="Dollar" >
-						61.92
+					<Preis waehrung="Euro" >
+						56.290905
 					</Preis>
 					<Seiten >
 						332
@@ -229,7 +229,7 @@
 						Oktober, 1999
 					</Erscheinungsdatum>
 					<Preis waehrung="Euro" >
-						43.80
+						39.81818
 					</Preis>
 					<Seiten >
 						403
@@ -257,7 +257,7 @@
 						Dezember, 1999
 					</Erscheinungsdatum>
 					<Preis waehrung="Euro" >
-						28.45
+						25.863636
 					</Preis>
 					<Seiten >
 						584
