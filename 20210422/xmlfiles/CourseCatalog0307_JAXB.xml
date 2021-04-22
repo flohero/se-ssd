@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Kurskatalog xmlns:ns2="http://www.fh-ooe.at/ssd4/coursecatalog" jahr="2021" semester="Summer" campus="Hagenberg">
+    <Studiengang name="Software Engineering" abkuerzung="SE">
+        <Code>0307</Code>
+        <Kurse>
+            <Kurs kurstitel="Semistructured Data Models and XML" kurstyp="Lecture" kursID="cID_8315" ns2:SWS="2">
+                <LVALeiterListe>
+                    <LVALeiter name="Barbara Traxler" personalnummer="P22080" typ="HBL">
+                        <Erstellungsdatum>2021-04-21</Erstellungsdatum>
+                    </LVALeiter>
+                </LVALeiterListe>
+            </Kurs>
+            <Kurs kurstitel="Semistructured Data Models and XML" kurstyp="LabSession" kursID="cID_8314" ns2:SWS="2">
+                <LVALeiterListe>
+                    <LVALeiter name="Norbert Niklas" personalnummer="P22081" typ="NBL">
+                        <Erstellungsdatum>2021-04-21</Erstellungsdatum>
+                    </LVALeiter>
+                </LVALeiterListe>
+            </Kurs>
+        </Kurse>
+    </Studiengang>
+</Kurskatalog>

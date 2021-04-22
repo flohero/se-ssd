@@ -26,8 +26,9 @@ include::{java}/EntlassungsbriefHandler.java[]
 .Output
 [source]
 ----
-Sehr geehrte Frau Prof. Dr. Petronella Petunia BSc MSc
-Es liegen folgende Diagnosen vor:Meniskus: Empyema gen. sin. post corpus alienum ligneum operat. (bis 2021-02-11)
+Sehr geehrte Frau Prof. Dr. Petronella Petunia Apfelmus BSc MSc
+Es liegen folgende Diagnosen vor:
+Meniskus: Empyema gen. sin. post corpus alienum ligneum operat. (bis 2021-02-11)
 Multiple Sklerose mit schubf. Verlauf
 ----
 

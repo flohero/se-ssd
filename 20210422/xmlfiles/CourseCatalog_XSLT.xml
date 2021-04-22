@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Kurskataloge</h1>
+        <table border="1">
+            <thead style="background:#00B0F0">
+                <tr>
+                    <th>Nr.</th>
+                    <th>Titel</th>
+                    <th>ECTS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Introduction to semi-structured data models and XML</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Introduction to semi-structured data models and XML</td>
+                    <td>1,5</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Intercultural Communications</td>
+                    <td>0,5</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

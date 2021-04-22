@@ -129,12 +129,14 @@ public class EntlassungsbriefHandler extends DefaultHandler {
             return "Sehr geehrte" +
                     (gender ? " Frau " : "r Herr ") +
                     String.join(" ", titlesFront) +
-                    " " +
+                    (titlesFront.isEmpty() ? "" : " ") +
                     String.join(" ", firstnames) +
+                    " " +
+                    lastname +
                     " " +
                     String.join(" ", titlesBack) +
                     "\n" +
-                    "Es liegen folgende Diagnosen vor:" +
+                    "Es liegen folgende Diagnosen vor:\n" +
                     diagnoses
                             .stream()
                             .map(Object::toString)

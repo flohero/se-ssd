@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CourseCatalog
+  SYSTEM "CourseCatalog.dtd">
+<CourseCatalog campus="Hagenberg" term="summer" year="2021">
+   <DegreeProgramme code="0307" name="Software Engineering">
+      <Course id="cID8314" semester="4" semesterHours="1">SSD4</Course>
+   </DegreeProgramme>
+</CourseCatalog>
+<!--Date and Time: Thu Apr 22 15:47:03 CEST 2021-->
