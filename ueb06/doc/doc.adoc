@@ -14,7 +14,7 @@
 Es wurden fünf Files erstellt mit 2, 10, 100, 1000 und 10000 Einträgen.
 Hier der Output des Programms, die generierten XML Files befinden sich unter `xmlfiles`.
 
-.Dom1.java
+.Book.java
 [source,java]
 ----
 include::{src}/Book.java[]

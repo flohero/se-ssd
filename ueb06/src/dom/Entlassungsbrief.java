@@ -20,6 +20,7 @@ import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 import java.io.File;
 import java.io.IOException;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -81,18 +82,29 @@ public class Entlassungsbrief {
                     )
             );
 
-            // Copy Diagnoeses Node
+            // Copy Diagnoses Node
             Node diagnoses = entlassungsbriefDoc.getElementsByTagName("Diagnosen").item(0);
             Node diagnosesClone = summaryDoc.importNode(diagnoses, true);
             summary.appendChild(diagnosesClone);
 
             // Rename diagnoses
             summaryDoc.renameNode(diagnosesClone, null, "diagnoses");
+            LocalDate nowHalfYear = LocalDate.now().minusDays(180);
 
             // Rename Children of diagnoses
             NodeList diags = summaryDoc.getElementsByTagName("Diagnose");
-            for (int i = 0; i < diags.getLength(); i++) {
-                summaryDoc.renameNode(diags.item(i), null, "diag");
+            int i = 0;
+            while (i < diags.getLength()) {
+                Node diag = diags.item(i);
+                Node to = diag.getAttributes().getNamedItem("bis");
+
+                if (to != null
+                        && nowHalfYear.isAfter(LocalDate.parse(to.getTextContent()))) {
+                    diagnosesClone.removeChild(diag);
+                } else {
+                    summaryDoc.renameNode(diag, null, "diag");
+                    i++;
+                }
             }
 
             String fileName = "summary.xml";

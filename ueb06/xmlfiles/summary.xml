@@ -4,12 +4,6 @@
 <summary>
    <fullname>Prof. Dr. Petronella Petunia Apfelmus BSc, MSc</fullname>
    <diagnoses>
-      <diag bis="2020-06-30"
-            code="M54.99"
-            status="abgeschlossen"
-            von="2020-06-01">
-			Bekannt rezidivierende Rückenschmerzen
-		</diag>
       <diag bis="2021-02-11"
             code="M25.46"
             status="abgeschlossen"
