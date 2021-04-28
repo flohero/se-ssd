@@ -1,0 +1,83 @@
+= Übung 04
+:author: Florian Weingartshofer
+:email: <S1910307103@students.fh-hagenberg.at>
+:reproducible:
+:listing-caption: Listing
+:source-highlighter: rouge
+:stem:
+:src: ../src/dom
+:xml: ../xmlfiles
+:numbered:
+
+== Gegenüberstellung SAX und DOM, Teil 2: DOM-Implementierung
+
+Es wurden fünf Files erstellt mit 2, 10, 100, 1000 und 10000 Einträgen.
+Hier der Output des Programms, die generierten XML Files befinden sich unter `xmlfiles`.
+
+.Dom1.java
+[source,java]
+----
+include::{src}/Book.java[]
+----
+
+.Output für 2 Einträge
+[source]
+----
+Duration: 794ms
+Memory Usage: 6mb
+----
+
+.Output für 10 Einträge
+[source]
+----
+Duration: 748ms
+Memory Usage: 7mb
+----
+
+.Output für 100 Einträge
+[source]
+----
+Duration: 841ms
+Memory Usage: 4mb
+----
+
+.Output für 1000 Einträge
+[source]
+----
+Duration: 2038ms
+Memory Usage: 27mb
+----
+
+.Output für 10000 Einträge
+[source]
+----
+Duration: 81558ms
+Memory Usage: 140mb
+----
+
+== SAX und DOM: Direkter Vergleich
+Der DOM ist sowohl bei Memory Usage und Zeitmessung wesentlich schlechter,
+da tatsächlich das ganze Dokument geladen werden muss und in Objekte verpackt werden muss. Daher ist der SAX performance technisch besser.
+
+Allerdings ist für die Programmierung der DOM angenehmer, da man beim SAX selber dazu verleitet ist selbst einen DOM aufzubauen um schon einfachere Aufgaben zu lösen.
+
+Das Programm ist bei beiden Lösungen relativ gleich lang, das liegt vorallem an den zusätzlichen import Statements bei der DOM Lösung.
+
+Ich würde die DOM Lösung bevorzugen, wenn die Aufgabe nicht performance kritisch ist, da der DOM erhöhten Programmier Komfort bietet.
+
+== DOM: Entlassungsbrief
+
+.Entlassungsbrief.java
+[source,java]
+----
+include::{src}/Entlassungsbrief.java[]
+----
+
+== Transformieren eines DOM-Baumes mit XSLT
+*Annahme: Das Stylesheet File muss nicht über die args übergeben werden, da die Formulierung in der Angabe zweideutig ist.*
+
+.TransformEntlassungsbrief.java
+[source,java]
+----
+include::{src}/TransformEntlassungsbrief.java[]
+----

@@ -1,0 +1,9 @@
+<!ELEMENT summary (fullname, diagnoses?)>
+<!ELEMENT fullname (#PCDATA)>
+<!ELEMENT diagnoses (diag+)>
+<!ELEMENT diag (#PCDATA)>
+<!ATTLIST diag
+	      code CDATA #REQUIRED
+	      bis  CDATA #IMPLIED
+	      von  CDATA #REQUIRED
+	      status  CDATA #IMPLIED>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE summary
+  SYSTEM "summary.dtd">
+<summary>
+   <fullname>Prof. Dr. Petronella Petunia Apfelmus BSc, MSc</fullname>
+   <diagnoses>
+      <diag bis="2020-06-30"
+            code="M54.99"
+            status="abgeschlossen"
+            von="2020-06-01">
+			Bekannt rezidivierende Rückenschmerzen
+		</diag>
+      <diag bis="2021-02-11"
+            code="M25.46"
+            status="abgeschlossen"
+            von="2021-01-11">
+			Meniskus: Empyema gen. sin. post corpus alienum ligneum operat.
+		</diag>
+      <diag code="G35.10" status="offen" von="2006-09-11">
+			Multiple Sklerose mit schubf. Verlauf
+		</diag>
+   </diagnoses>
+</summary>
